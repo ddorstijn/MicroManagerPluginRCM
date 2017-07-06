@@ -1,0 +1,46 @@
+ome-xml.jar, scifio.jar, loci-common.jar
+Bioformats libraries needed for writing OME Tiffs
+Downloaded: 9/2012
+http://loci.wisc.edu/bio-formats/downloads
+
+slf4j-api-1.7.1.jar
+3rd party logging utility used by Bioformats; needed by Bioformats jars which are needed to write OME Tiffs
+Version 1.7.1
+Downloaded: 9/21/2012
+http://www.slf4j.org/download.html
+
+AbsoluteLayout.jar
+Classes needed by some GUIs designed in the Netbeans GUI builder.  Inclusion of this file may need to be evaluated from time to time.
+
+TSFProto.jar
+Classes needed to read and write Gaussian fitting data in the Tagged Spot Format. This is to stre single molecule data such as in STORM/PALM imaging.  It uses Google Protocol Buffers under the hood.
+
+gproto.jar
+Compiled version of Google Protocol Buffers (https://developers.google.com/protocol-buffers/).
+
+bsh-2.04b.jar
+Beanshell interpreter and environment
+
+ij.jar
+ImageJA (source: https://github.com/imagej/ImageJA)
+JAR from Maven Central (net.imagej/ij; http://search.maven.org/#browse%7C-1544119488)
+JAR renamed to ij.jar
+(Note: ImageJA is an ImageJ1 source tree maintained by the ImageJ2 team; it
+tracks ImageJ1 versions but clarifies the exact correspondence between source
+code and binary release versions.)
+
+jfreechart-1.0.13.jar
+Library used for plotting data (http://www.jfree.org/jfreechart/).
+
+lwm.jar
+Clojure implementation of local weighted maxima algorithm.  No longer needed as there is now Java code to do the same.
+
+rsyntaxtextarea.jar
+RSyntaxArea is a syntax highlighting text editor component. Information: http://fifesoft.com/rsyntaxtextarea/. Source: https://github.com/bobbylight/RSyntaxTextArea. License: Modified BSD: https://github.com/bobbylight/RSyntaxTextArea/blob/master/distfiles/RSyntaxTextArea.License.txt.  Source code was pulled from Github on 04/19/2014 and compiled using the command: "ant".  
+
+guava-17.0.jar
+Google's core libraries, which we currently only need for EventBus.
+
+commons-math3-3.2.jar
+Apache Commons Math 3 (packages do not conflict with commons-math 2.x).
+From http://archive.apache.org/dist/commons/math/binaries/commons-math3-3.2-bin.zip
