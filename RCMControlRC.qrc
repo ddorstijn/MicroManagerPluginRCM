@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>micro-manager-2.0.0-beta2/micro-manager-2.0.0-beta2/mmstudio/src/main/resources/org/micromanager/icons/camera@2x.png</file>
+    <file>micro-manager-2.0.0-beta2/micro-manager-2.0.0-beta2/mmstudio/src/main/resources/org/micromanager/icons/camera_go@2x.png</file>
+    <file>micro-manager-2.0.0-beta2/micro-manager-2.0.0-beta2/mmstudio/src/main/resources/org/micromanager/icons/camera_plus_arrow@2x.png</file>
+  </qresource>
+</RCC>
