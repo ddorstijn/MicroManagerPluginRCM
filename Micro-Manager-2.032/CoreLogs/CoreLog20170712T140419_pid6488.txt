@@ -1,0 +1,172 @@
+2017-07-12T14:04:19.675409 tid9564 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170712T140419_pid6488.txt
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] User: Nikon-SIM
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] Host: Nikon-SIM-HP
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] MMCore version 8.5.0
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] Device API version 67, Module API version 10
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.6.0_31, 32-bit
+2017-07-12T14:04:19.675409 tid9564 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-12T14:04:19.778412 tid9204 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-07-12T14:04:19.881413 tid9204 [IFO,App] Unable to load JAR at file:/C:/Program%20Files/Micro-Manager-2.032/mmplugins/RCM.jar
+                                   [       ] java.lang.UnsupportedClassVersionError: main/java/org/micromanager/rcm/RCM : Unsupported major.minor version 51.0 in Thread[Plugin loading thread,6,main]
+                                   [       ]   at java.lang.ClassLoader.defineClass1(Native Method)
+                                   [       ]   at java.lang.ClassLoader.defineClassCond(Unknown Source)
+                                   [       ]   at java.lang.ClassLoader.defineClass(Unknown Source)
+                                   [       ]   at java.security.SecureClassLoader.defineClass(Unknown Source)
+                                   [       ]   at java.net.URLClassLoader.defineClass(Unknown Source)
+                                   [       ]   at java.net.URLClassLoader.access$000(Unknown Source)
+                                   [       ]   at java.net.URLClassLoader$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.net.URLClassLoader.findClass(Unknown Source)
+                                   [       ]   at java.lang.ClassLoader.loadClass(Unknown Source)
+                                   [       ]   at java.lang.ClassLoader.loadClass(Unknown Source)
+                                   [       ]   at java.lang.ClassLoader.loadClass(Unknown Source)
+                                   [       ]   at org.scijava.util.ClassUtils.loadClass(ClassUtils.java:164)
+                                   [       ]   at org.scijava.plugin.PluginInfo.loadClass(PluginInfo.java:283)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.PluginFinder.findPluginsWithLoader(PluginFinder.java:116)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.PluginFinder.findPlugins(PluginFinder.java:99)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.loadPlugins(DefaultPluginManager.java:111)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.access$000(DefaultPluginManager.java:46)
+                                   [       ]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$1.run(DefaultPluginManager.java:80)
+                                   [       ]   at java.lang.Thread.run(Unknown Source)
+2017-07-12T14:04:19.901413 tid9204 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@95215b
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@8a1977
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@6127da
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@7f8062
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@1f8d077
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@1ac1e22
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@18ed77a
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin GaussianTrack_@e496ab
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@8932e8
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@c08593
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@181b3d4
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@45378f
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@42a818
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@29d65b
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@2f1e75
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@18f9b75
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@16b9e62
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@24c414
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@1c4ff2c
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@143a083
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@df0256
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@1127b52
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@5e7020
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.splitview.SplitView@135daf
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin PMQI.AutoWB@16b904d
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@cec78d
+2017-07-12T14:04:19.911413 tid9204 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-07-12T14:04:19.931413 tid9204 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@db3331
+2017-07-12T14:04:19.941413 tid9204 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@1cf662f
+2017-07-12T14:04:19.941413 tid9204 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@1ad0839
+2017-07-12T14:04:19.941413 tid9204 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@145b02f
+2017-07-12T14:04:19.951413 tid9204 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@1cfd3b2
+2017-07-12T14:04:19.951413 tid9204 [IFO,App] Searching for plugins in class loader
+2017-07-12T14:04:20.001413 tid9204 [IFO,App] Thread 20 (Plugin loading thread) terminated with uncaught exception
+2017-07-12T14:04:20.001413 tid9204 [IFO,App] java.lang.UnsupportedClassVersionError: main/java/org/micromanager/rcm/RCM : Unsupported major.minor version 51.0
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.lang.ClassLoader.defineClass1(Native Method)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.lang.ClassLoader.defineClassCond(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.lang.ClassLoader.defineClass(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.security.SecureClassLoader.defineClass(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.net.URLClassLoader.defineClass(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.net.URLClassLoader.access$000(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.net.URLClassLoader$1.run(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.security.AccessController.doPrivileged(Native Method)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.net.URLClassLoader.findClass(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.util.ClassUtils.loadClass(ClassUtils.java:164)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.plugin.PluginInfo.loadClass(PluginInfo.java:283)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.plugin.PluginInfo.getIdentifier(PluginInfo.java:320)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.AbstractUIDetails.getTitle(AbstractUIDetails.java:108)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.AbstractUIDetails.compareTo(AbstractUIDetails.java:238)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.AbstractUIDetails.compareTo(AbstractUIDetails.java:43)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Arrays.mergeSort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Arrays.sort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.util.Collections.sort(Unknown Source)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.object.SortedObjectIndex.mergeAfterSorting(SortedObjectIndex.java:97)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.object.SortedObjectIndex.addAll(SortedObjectIndex.java:83)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.scijava.plugin.PluginIndex.discover(PluginIndex.java:108)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.micromanager.internal.pluginmanagement.PluginFinder.findPluginsWithLoader(PluginFinder.java:113)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.loadPlugins(DefaultPluginManager.java:122)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager.access$000(DefaultPluginManager.java:46)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at org.micromanager.internal.pluginmanagement.DefaultPluginManager$1.run(DefaultPluginManager.java:80)
+2017-07-12T14:04:20.001413 tid9204 [IFO,App]   at java.lang.Thread.run(Unknown Source)
+2017-07-12T14:04:20.001413 tid9564 [IFO,App] Finished waiting for plugins to load
+2017-07-12T14:04:21.426427 tid9564 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-12T14:04:21.426427 tid9564 [dbg,Core] Will unload all devices
+2017-07-12T14:04:21.426427 tid9564 [IFO,Core] Did unload all devices
+2017-07-12T14:04:21.426427 tid9564 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-12T14:04:21.426427 tid9564 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-12T14:04:21.426427 tid9564 [dbg,Core] Will load device RCM from RCM
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Will initialize 3 devices
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Will initialize device RCM
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did initialize device RCM
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Will initialize device DHub
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did initialize device DHub
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Will initialize device DCam
+2017-07-12T14:04:21.516427 tid9564 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-07-12T14:04:21.516427 tid9564 [dbg,dev:DCam] Reading property ScanMode
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did initialize device DCam
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Default camera set to DCam
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Finished initializing 3 devices
+2017-07-12T14:04:21.516427 tid9564 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will set Core property: Camera = DCam
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Default camera set to DCam
+2017-07-12T14:04:21.516427 tid9564 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Did set Core property: Camera = DCam
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Autoshutter turned on
+2017-07-12T14:04:21.516427 tid9564 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Waiting for device RCM...
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Finished waiting for device RCM
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Waiting for device DHub...
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Finished waiting for device DHub
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Waiting for device DCam...
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Finished waiting for device DCam
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will update system state cache
+2017-07-12T14:04:21.516427 tid9564 [dbg,dev:DCam] Reading property ScanMode
+2017-07-12T14:04:21.516427 tid9564 [IFO,Core] Did update system state cache
+2017-07-12T14:04:21.516427 tid9564 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-12T14:04:21.526427 tid9564 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-12T14:04:22.163432 tid9564 [IFO,App] Error: Unrecognized plugin type null
+2017-07-12T14:04:22.163432 tid9564 [IFO,App] 
+                                   [       ] java.lang.NullPointerException in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at org.micromanager.internal.MainFrame.createCommonActionButtons(MainFrame.java:389)
+                                   [       ]   at org.micromanager.internal.MainFrame.createComponents(MainFrame.java:489)
+                                   [       ]   at org.micromanager.internal.MainFrame.<init>(MainFrame.java:157)
+                                   [       ]   at org.micromanager.internal.MMStudio.<init>(MMStudio.java:339)
+                                   [       ]   at MMStudioPlugin$1.run(MMStudioPlugin.java:77)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-12T14:04:22.163432 tid9564 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.

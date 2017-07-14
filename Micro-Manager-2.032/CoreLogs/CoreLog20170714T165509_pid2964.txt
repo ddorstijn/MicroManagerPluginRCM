@@ -1,0 +1,137 @@
+2017-07-14T16:55:09.161307 tid8188 [IFO,LogManager] Enabled primary log file C:\Users\Nikon-SIM\Documents\Danny\MicroManagerPluginRCM\Micro-Manager-2.032\CoreLogs\CoreLog20170714T165509_pid2964.txt
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] User: Nikon-SIM
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] Host: Nikon-SIM-HP
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] MMCore version 8.5.0
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] Device API version 67, Module API version 10
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-14T16:55:09.161307 tid8188 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.6.0_45, 32-bit
+2017-07-14T16:55:09.163307 tid8188 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-14T16:55:09.241312 tid6436 [IFO,App] Searching for plugins in C:\Users\Nikon-SIM\Documents\Danny\MicroManagerPluginRCM\Micro-Manager-2.032/mmplugins
+2017-07-14T16:55:09.367319 tid6436 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@ef83d3
+2017-07-14T16:55:09.372319 tid6436 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@d66426
+2017-07-14T16:55:09.373319 tid6436 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@186f247
+2017-07-14T16:55:09.373319 tid6436 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@8c4a77
+2017-07-14T16:55:09.374319 tid6436 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@2b9406
+2017-07-14T16:55:09.374319 tid6436 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@983d95
+2017-07-14T16:55:09.374319 tid6436 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@eaf40c
+2017-07-14T16:55:09.374319 tid6436 [IFO,App] Found plugin GaussianTrack_@13c6641
+2017-07-14T16:55:09.375319 tid6436 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@1fa6d18
+2017-07-14T16:55:09.375319 tid6436 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@15ed659
+2017-07-14T16:55:09.376320 tid6436 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@14a7a12
+2017-07-14T16:55:09.376320 tid6436 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@9444d1
+2017-07-14T16:55:09.376320 tid6436 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@2b323e
+2017-07-14T16:55:09.376320 tid6436 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@1efb4be
+2017-07-14T16:55:09.376320 tid6436 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@1d8c528
+2017-07-14T16:55:09.377320 tid6436 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@1f4e571
+2017-07-14T16:55:09.377320 tid6436 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@1038de7
+2017-07-14T16:55:09.378320 tid6436 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@183e7de
+2017-07-14T16:55:09.378320 tid6436 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@ebcdbb
+2017-07-14T16:55:09.378320 tid6436 [IFO,App] Found plugin rcmplugin.RCMPlugin@10fe2b9
+2017-07-14T16:55:09.378320 tid6436 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@186d484
+2017-07-14T16:55:09.378320 tid6436 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@ea48be
+2017-07-14T16:55:09.379320 tid6436 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@14dd758
+2017-07-14T16:55:09.379320 tid6436 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@174d93a
+2017-07-14T16:55:09.379320 tid6436 [IFO,App] Found plugin org.micromanager.splitview.SplitView@61a907
+2017-07-14T16:55:09.379320 tid6436 [IFO,App] Found plugin PMQI.AutoWB@1a0225b
+2017-07-14T16:55:09.379320 tid6436 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@2f8b5a
+2017-07-14T16:55:09.379320 tid6436 [IFO,App] Searching for plugins in C:\Users\Nikon-SIM\Documents\Danny\MicroManagerPluginRCM\Micro-Manager-2.032/mmautofocus
+2017-07-14T16:55:09.398321 tid6436 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@16ef71
+2017-07-14T16:55:09.401321 tid6436 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@129b0e1
+2017-07-14T16:55:09.402321 tid6436 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@7cd37a
+2017-07-14T16:55:09.404321 tid6436 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1c5466b
+2017-07-14T16:55:09.407321 tid6436 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@383118
+2017-07-14T16:55:09.408321 tid6436 [IFO,App] Searching for plugins in class loader
+2017-07-14T16:55:09.492326 tid6436 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@b533b8
+2017-07-14T16:55:09.493326 tid6436 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@3468f4
+2017-07-14T16:55:09.493326 tid6436 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@d67067
+2017-07-14T16:55:09.493326 tid6436 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@45c97b
+2017-07-14T16:55:09.493326 tid6436 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@1aecc3a
+2017-07-14T16:55:09.494326 tid6436 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@e22f2b
+2017-07-14T16:55:09.495326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@157b46f
+2017-07-14T16:55:09.495326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@1071c84
+2017-07-14T16:55:09.495326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@115d06c
+2017-07-14T16:55:09.496326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@13e15f7
+2017-07-14T16:55:09.496326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@175ade6
+2017-07-14T16:55:09.497326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@1c297a3
+2017-07-14T16:55:09.497326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@717323
+2017-07-14T16:55:09.497326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@313170
+2017-07-14T16:55:09.498326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@1db9852
+2017-07-14T16:55:09.498326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@3cb075
+2017-07-14T16:55:09.498326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@16089a5
+2017-07-14T16:55:09.498326 tid6436 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@ecb67f
+2017-07-14T16:55:09.498326 tid6436 [IFO,App] Found plugin rcmplugin.RCMPlugin@5e222e
+2017-07-14T16:55:09.498326 tid6436 [IFO,App] Plugin loading took 257ms
+2017-07-14T16:55:09.498326 tid8188 [IFO,App] Finished waiting for plugins to load
+2017-07-14T16:55:10.830403 tid8188 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-14T16:55:10.830403 tid8188 [dbg,Core] Will unload all devices
+2017-07-14T16:55:10.830403 tid8188 [IFO,Core] Did unload all devices
+2017-07-14T16:55:10.830403 tid8188 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-14T16:55:10.830403 tid8188 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-14T16:55:10.830403 tid8188 [dbg,Core] Will load device RCM from RCM
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-07-14T16:55:10.915408 tid8188 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Will initialize 3 devices
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Will initialize device RCM
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Did initialize device RCM
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Will initialize device DHub
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Did initialize device DHub
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Will initialize device DCam
+2017-07-14T16:55:10.915408 tid8188 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-07-14T16:55:10.915408 tid8188 [dbg,dev:DCam] Reading property ScanMode
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Did initialize device DCam
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Default camera set to DCam
+2017-07-14T16:55:10.915408 tid8188 [IFO,Core] Finished initializing 3 devices
+2017-07-14T16:55:10.915408 tid8188 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Will set Core property: Camera = DCam
+2017-07-14T16:55:10.916408 tid8188 [IFO,Core] Default camera set to DCam
+2017-07-14T16:55:10.916408 tid8188 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Did set Core property: Camera = DCam
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Autoshutter turned on
+2017-07-14T16:55:10.916408 tid8188 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Waiting for device RCM...
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Finished waiting for device RCM
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Waiting for device DHub...
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Finished waiting for device DHub
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Waiting for device DCam...
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Finished waiting for device DCam
+2017-07-14T16:55:10.916408 tid8188 [dbg,Core] Will update system state cache
+2017-07-14T16:55:10.916408 tid8188 [dbg,dev:DCam] Reading property ScanMode
+2017-07-14T16:55:10.916408 tid8188 [IFO,Core] Did update system state cache
+2017-07-14T16:55:10.920408 tid8188 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-14T16:55:10.926408 tid8188 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-14T16:55:11.599447 tid8188 [IFO,App] Rebuilding config group table
+2017-07-14T16:55:11.599447 tid8188 [IFO,App] Finished rebuilding config group table
+2017-07-14T16:55:11.606447 tid8188 [IFO,App] Startup script (C:\Users\Nikon-SIM\Documents\Danny\MicroManagerPluginRCM\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-07-14T16:55:11.606447 tid8188 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-14T16:55:11.608447 tid8188 [IFO,App] Rebuilding config group table
+2017-07-14T16:55:11.608447 tid8188 [IFO,App] Finished rebuilding config group table
+2017-07-14T16:55:11.608447 tid8188 [dbg,Core] Will update system state cache
+2017-07-14T16:55:11.608447 tid8188 [dbg,dev:DCam] Reading property ScanMode
+2017-07-14T16:55:11.608447 tid8188 [IFO,Core] Did update system state cache
+2017-07-14T16:55:11.608447 tid8188 [IFO,App] Finished updating GUI
+2017-07-14T16:55:13.577560 tid8188 [ERR,Core:dev:RCM] Cannot get value of property "Port" [ Error in device "RCM": Invalid property name encountered: Port (2) ]
+2017-07-14T16:55:13.577560 tid8188 [ERR,Core:dev:RCM] Cannot get value of property "Port" [ Error in device "RCM": Invalid property name encountered: Port (2) ]
+2017-07-14T16:55:18.855862 tid8188 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Waiting for device RCM...
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Finished waiting for device RCM
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Waiting for device DHub...
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Finished waiting for device DHub
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Waiting for device DCam...
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Finished waiting for device DCam
+2017-07-14T16:55:18.855862 tid8188 [dbg,Core] Will unload all devices
+2017-07-14T16:55:18.855862 tid8188 [IFO,Core] Did unload all devices
+2017-07-14T16:55:18.855862 tid8188 [IFO,Core] System reset
+2017-07-14T16:55:18.857862 tid8188 [IFO,Core] Core session ended

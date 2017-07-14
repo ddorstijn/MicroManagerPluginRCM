@@ -1,0 +1,318 @@
+2017-07-10T15:14:03.862244 tid9876 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170710T151403_pid9644.txt
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] User: Nikon-SIM
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] Host: Nikon-SIM-HP
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] MMCore version 8.5.0
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] Device API version 67, Module API version 10
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-10T15:14:03.862244 tid9876 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.8.0_131, 32-bit
+2017-07-10T15:14:03.864244 tid9876 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-10T15:14:03.966250 tid6908 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-07-10T15:14:04.067256 tid6908 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@18e7d8b
+2017-07-10T15:14:04.070256 tid6908 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@d71dd9
+2017-07-10T15:14:04.071256 tid6908 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@948a94
+2017-07-10T15:14:04.071256 tid6908 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@265c0b
+2017-07-10T15:14:04.072256 tid6908 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@11414e0
+2017-07-10T15:14:04.072256 tid6908 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@14cdf0d
+2017-07-10T15:14:04.072256 tid6908 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@1dee4b2
+2017-07-10T15:14:04.072256 tid6908 [IFO,App] Found plugin GaussianTrack_@b90397
+2017-07-10T15:14:04.073256 tid6908 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@1542f75
+2017-07-10T15:14:04.074256 tid6908 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@9d01ca
+2017-07-10T15:14:04.074256 tid6908 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@f3a719
+2017-07-10T15:14:04.074256 tid6908 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@c81b35
+2017-07-10T15:14:04.074256 tid6908 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@15d5ffc
+2017-07-10T15:14:04.074256 tid6908 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@1208dcc
+2017-07-10T15:14:04.074256 tid6908 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@1fe8547
+2017-07-10T15:14:04.075256 tid6908 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@197ca29
+2017-07-10T15:14:04.075256 tid6908 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@7aaa61
+2017-07-10T15:14:04.076256 tid6908 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@10072c0
+2017-07-10T15:14:04.076256 tid6908 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@78ae1
+2017-07-10T15:14:04.076256 tid6908 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@a68a
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@f068a9
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@1d531b0
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@1ac6006
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7fb68f
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Found plugin PMQI.AutoWB@10b2b09
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@141d229
+2017-07-10T15:14:04.077256 tid6908 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-07-10T15:14:04.094257 tid6908 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@1e5a5fb
+2017-07-10T15:14:04.100258 tid6908 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@135907d
+2017-07-10T15:14:04.101258 tid6908 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@13ce679
+2017-07-10T15:14:04.102258 tid6908 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@af4d77
+2017-07-10T15:14:04.104258 tid6908 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@1c54511
+2017-07-10T15:14:04.105258 tid6908 [IFO,App] Searching for plugins in class loader
+2017-07-10T15:14:04.205264 tid6908 [IFO,App] Found plugin main.java.org.micromanager.rcm.RCM@4861ce
+2017-07-10T15:14:04.205264 tid6908 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@cabaae
+2017-07-10T15:14:04.205264 tid6908 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@17e4efd
+2017-07-10T15:14:04.205264 tid6908 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@9b8a77
+2017-07-10T15:14:04.206264 tid6908 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@f2de97
+2017-07-10T15:14:04.206264 tid6908 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@6199fd
+2017-07-10T15:14:04.206264 tid6908 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@18f782
+2017-07-10T15:14:04.207264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@12a3b12
+2017-07-10T15:14:04.207264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@10530ad
+2017-07-10T15:14:04.208264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@73a457
+2017-07-10T15:14:04.208264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@12e37ef
+2017-07-10T15:14:04.209264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@1f500cd
+2017-07-10T15:14:04.209264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@d0b2c4
+2017-07-10T15:14:04.209264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@1aa3abb
+2017-07-10T15:14:04.210264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@11b2b1b
+2017-07-10T15:14:04.210264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@2da0dc
+2017-07-10T15:14:04.210264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@540171
+2017-07-10T15:14:04.211264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@1ae2e13
+2017-07-10T15:14:04.211264 tid6908 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@1e1ea9e
+2017-07-10T15:14:04.211264 tid6908 [IFO,App] Plugin loading took 245ms
+2017-07-10T15:14:04.211264 tid9876 [IFO,App] Finished waiting for plugins to load
+2017-07-10T15:14:08.436506 tid9876 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-10T15:14:08.436506 tid9876 [dbg,Core] Will unload all devices
+2017-07-10T15:14:08.436506 tid9876 [IFO,Core] Did unload all devices
+2017-07-10T15:14:08.436506 tid9876 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-10T15:14:08.437506 tid9876 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-10T15:14:08.437506 tid9876 [dbg,Core] Will load device RCM from RCM
+2017-07-10T15:14:08.499509 tid9876 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-07-10T15:14:08.499509 tid9876 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Will initialize 3 devices
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Will initialize device RCM
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Did initialize device RCM
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Will initialize device DHub
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Did initialize device DHub
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Will initialize device DCam
+2017-07-10T15:14:08.500509 tid9876 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-07-10T15:14:08.500509 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Did initialize device DCam
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Default camera set to DCam
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Finished initializing 3 devices
+2017-07-10T15:14:08.500509 tid9876 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Will set Core property: Camera = DCam
+2017-07-10T15:14:08.500509 tid9876 [IFO,Core] Default camera set to DCam
+2017-07-10T15:14:08.500509 tid9876 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Did set Core property: Camera = DCam
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Autoshutter turned on
+2017-07-10T15:14:08.500509 tid9876 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Waiting for device RCM...
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Finished waiting for device RCM
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Waiting for device DHub...
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Finished waiting for device DHub
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Waiting for device DCam...
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Finished waiting for device DCam
+2017-07-10T15:14:08.500509 tid9876 [dbg,Core] Will update system state cache
+2017-07-10T15:14:08.501509 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:14:08.501509 tid9876 [IFO,Core] Did update system state cache
+2017-07-10T15:14:08.505510 tid9876 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-10T15:14:08.511510 tid9876 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-10T15:14:09.341557 tid9876 [IFO,App] Rebuilding config group table
+2017-07-10T15:14:09.341557 tid9876 [IFO,App] Finished rebuilding config group table
+2017-07-10T15:14:09.350558 tid9876 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-07-10T15:14:09.350558 tid9876 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-10T15:14:09.352558 tid9876 [IFO,App] Rebuilding config group table
+2017-07-10T15:14:09.352558 tid9876 [IFO,App] Finished rebuilding config group table
+2017-07-10T15:14:09.352558 tid9876 [dbg,Core] Will update system state cache
+2017-07-10T15:14:09.352558 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:14:09.352558 tid9876 [IFO,Core] Did update system state cache
+2017-07-10T15:14:09.352558 tid9876 [IFO,App] Finished updating GUI
+2017-07-10T15:14:09.354558 tid9876 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.
+2017-07-10T15:14:10.772639 tid9876 [IFO,App] [UI] JMenu "Config" clicked in MainFrame.
+2017-07-10T15:14:11.824699 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:14:13.147775 tid9876 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-07-10T15:14:13.923820 tid9876 [IFO,App] [UI] JComboBox clicked in PropertyEditor.
+2017-07-10T15:14:15.011882 tid9876 [IFO,App] [UI]  "ComboBox.list" set to "1" in PropertyEditor.
+2017-07-10T15:14:15.012882 tid9876 [IFO,App] Setting value 1 at row 13
+2017-07-10T15:14:15.012882 tid9876 [IFO,App] RCM/Start Sequence:1
+2017-07-10T15:14:15.012882 tid9876 [dbg,Core:dev:RCM] Will set property "Start Sequence" to "1"
+2017-07-10T15:14:15.012882 tid9876 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-07-10T15:14:15.133889 tid9876 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-07-10T15:14:15.133889 tid9876 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-07-10T15:14:15.148890 tid9876 [IFO,dev:RCM] Starting sequence
+2017-07-10T15:14:15.200893 tid9876 [dbg,Core:dev:RCM] Did set property "Start Sequence" to "1"
+2017-07-10T15:14:15.200893 tid9876 [dbg,Core] Waiting for device RCM...
+2017-07-10T15:14:15.200893 tid9876 [dbg,Core] Finished waiting for device RCM
+2017-07-10T15:14:15.200893 tid9876 [dbg,Core] Will update system state cache
+2017-07-10T15:14:15.200893 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:14:15.200893 tid9876 [IFO,Core] Did update system state cache
+2017-07-10T15:14:15.208893 tid9876 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-10T15:14:15.208893 tid9876 [IFO,App] Rebuilding config group table
+2017-07-10T15:14:15.208893 tid9876 [IFO,App] Finished rebuilding config group table
+2017-07-10T15:14:15.210893 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:14:15.212893 tid9876 [IFO,App] Finished updating GUI
+2017-07-10T15:14:25.532484 tid9876 [IFO,App] [UI] SortedMenu "Plugins" clicked in MainFrame.
+2017-07-10T15:15:45.365050 tid9876 [IFO,App] [UI] GlyphButton clicked in RCMController.
+2017-07-10T15:15:45.516058 tid9876 [IFO,App] [UI] GlyphButton clicked in RCMController.
+2017-07-10T15:15:46.876136 tid9876 [IFO,App] [UI] GlyphButton clicked in RCMController.
+2017-07-10T15:15:47.044146 tid9876 [IFO,App] [UI] GlyphButton clicked in RCMController.
+2017-07-10T15:15:57.523745 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude x" to "2"
+2017-07-10T15:15:57.523745 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude x" to "2"
+2017-07-10T15:15:57.523745 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude y" to "2"
+2017-07-10T15:15:57.523745 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude y" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency x" to "350"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency x" to "350"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency y" to "1"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency y" to "1"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Laser off" to "0"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Laser off" to "0"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Laser on" to "0"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Laser on" to "0"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Laser power" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Laser power" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan x" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan x" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan y" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan y" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan x" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan x" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan y" to "2"
+2017-07-10T15:15:57.524745 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan y" to "2"
+2017-07-10T15:15:57.525745 tid9876 [dbg,Core] Will snap image from current camera
+2017-07-10T15:15:57.535746 tid9876 [dbg,Core] Did snap image from current camera
+2017-07-10T15:15:57.717756 tid9876 [IFO,App] [UI] JButton "Snap" clicked in RCMController.
+2017-07-10T15:16:00.445912 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:00.447912 tid9876 [IFO,App] [UI] JButton "Refresh" clicked in PropertyEditor.
+2017-07-10T15:16:01.581977 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:01.584977 tid9876 [IFO,App] [UI] JButton "Refresh" clicked in PropertyEditor.
+2017-07-10T15:16:09.556433 tid9876 [IFO,App] [UI]  "ComboBox.list" set to "0" in PropertyEditor.
+2017-07-10T15:16:09.556433 tid9876 [IFO,App] Setting value 0 at row 13
+2017-07-10T15:16:09.556433 tid9876 [IFO,App] RCM/Start Sequence:0
+2017-07-10T15:16:09.556433 tid9876 [dbg,Core:dev:RCM] Will set property "Start Sequence" to "0"
+2017-07-10T15:16:09.556433 tid9876 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-07-10T15:16:09.557433 tid9876 [dbg,Core:dev:RCM] Did set property "Start Sequence" to "0"
+2017-07-10T15:16:09.557433 tid9876 [dbg,Core] Waiting for device RCM...
+2017-07-10T15:16:09.557433 tid9876 [dbg,Core] Finished waiting for device RCM
+2017-07-10T15:16:09.557433 tid9876 [dbg,Core] Will update system state cache
+2017-07-10T15:16:09.557433 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:09.557433 tid9876 [IFO,Core] Did update system state cache
+2017-07-10T15:16:09.561434 tid9876 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-10T15:16:09.561434 tid9876 [IFO,App] Rebuilding config group table
+2017-07-10T15:16:09.561434 tid9876 [IFO,App] Finished rebuilding config group table
+2017-07-10T15:16:09.563434 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:09.565434 tid9876 [IFO,App] Finished updating GUI
+2017-07-10T15:16:10.684498 tid9876 [IFO,App] [UI]  "ComboBox.list" set to "1" in PropertyEditor.
+2017-07-10T15:16:10.684498 tid9876 [IFO,App] Setting value 1 at row 13
+2017-07-10T15:16:10.684498 tid9876 [IFO,App] RCM/Start Sequence:1
+2017-07-10T15:16:10.684498 tid9876 [dbg,Core:dev:RCM] Will set property "Start Sequence" to "1"
+2017-07-10T15:16:10.684498 tid9876 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-07-10T15:16:10.803505 tid9876 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-07-10T15:16:10.803505 tid9876 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-07-10T15:16:10.803505 tid9876 [IFO,dev:RCM] Starting sequence
+2017-07-10T15:16:10.838507 tid9876 [dbg,Core:dev:RCM] Did set property "Start Sequence" to "1"
+2017-07-10T15:16:10.838507 tid9876 [dbg,Core] Waiting for device RCM...
+2017-07-10T15:16:10.838507 tid9876 [dbg,Core] Finished waiting for device RCM
+2017-07-10T15:16:10.838507 tid9876 [dbg,Core] Will update system state cache
+2017-07-10T15:16:10.838507 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:10.838507 tid9876 [IFO,Core] Did update system state cache
+2017-07-10T15:16:10.841507 tid9876 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-10T15:16:10.842507 tid9876 [IFO,App] Rebuilding config group table
+2017-07-10T15:16:10.842507 tid9876 [IFO,App] Finished rebuilding config group table
+2017-07-10T15:16:10.843507 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:10.845507 tid9876 [IFO,App] Finished updating GUI
+2017-07-10T15:16:17.363880 tid9876 [IFO,App] [UI]  "ComboBox.list" set to "0" in PropertyEditor.
+2017-07-10T15:16:17.363880 tid9876 [IFO,App] Setting value 0 at row 13
+2017-07-10T15:16:17.363880 tid9876 [IFO,App] RCM/Start Sequence:0
+2017-07-10T15:16:17.364880 tid9876 [dbg,Core:dev:RCM] Will set property "Start Sequence" to "0"
+2017-07-10T15:16:17.364880 tid9876 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-07-10T15:16:17.364880 tid9876 [dbg,Core:dev:RCM] Did set property "Start Sequence" to "0"
+2017-07-10T15:16:17.364880 tid9876 [dbg,Core] Waiting for device RCM...
+2017-07-10T15:16:17.364880 tid9876 [dbg,Core] Finished waiting for device RCM
+2017-07-10T15:16:17.364880 tid9876 [dbg,Core] Will update system state cache
+2017-07-10T15:16:17.365880 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:17.365880 tid9876 [IFO,Core] Did update system state cache
+2017-07-10T15:16:17.368880 tid9876 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-10T15:16:17.369880 tid9876 [IFO,App] Rebuilding config group table
+2017-07-10T15:16:17.369880 tid9876 [IFO,App] Finished rebuilding config group table
+2017-07-10T15:16:17.370880 tid9876 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T15:16:17.372880 tid9876 [IFO,App] Finished updating GUI
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude x" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude x" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude y" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude y" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency x" to "350"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency x" to "350"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency y" to "1"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency y" to "1"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Laser off" to "0"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Laser off" to "0"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Laser on" to "0"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Laser on" to "0"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Laser power" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Laser power" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan x" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan x" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan y" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan y" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan x" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan x" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan y" to "2"
+2017-07-10T15:16:19.003974 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan y" to "2"
+2017-07-10T15:16:19.004974 tid9876 [dbg,Core] Will snap image from current camera
+2017-07-10T15:16:19.014974 tid9876 [dbg,Core] Did snap image from current camera
+2017-07-10T15:16:19.018975 tid9876 [IFO,App] [UI] JButton "Snap" clicked in RCMController.
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude x" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude x" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude y" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude y" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency x" to "350"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency x" to "350"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency y" to "1"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency y" to "1"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Laser off" to "0"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Laser off" to "0"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Laser on" to "0"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Laser on" to "0"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Laser power" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Laser power" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan x" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan x" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan y" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan y" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan x" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan x" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan y" to "2"
+2017-07-10T15:16:21.460114 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan y" to "2"
+2017-07-10T15:16:21.461114 tid9876 [dbg,Core] Will snap image from current camera
+2017-07-10T15:16:21.471115 tid9876 [dbg,Core] Did snap image from current camera
+2017-07-10T15:16:21.473115 tid9876 [IFO,App] [UI] JButton "Snap" clicked in RCMController.
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude x" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude x" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Amplitude y" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Amplitude y" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency x" to "350"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency x" to "350"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Frequency y" to "1"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Frequency y" to "1"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Laser off" to "0"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Laser off" to "0"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Laser on" to "0"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Laser on" to "0"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Laser power" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Laser power" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan x" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan x" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Re-scan y" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Re-scan y" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan x" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan x" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Will set property "Offset Scan y" to "2"
+2017-07-10T15:16:22.556177 tid9876 [dbg,Core:dev:RCM] Did set property "Offset Scan y" to "2"
+2017-07-10T15:16:22.557177 tid9876 [dbg,Core] Will snap image from current camera
+2017-07-10T15:16:22.567178 tid9876 [dbg,Core] Did snap image from current camera
+2017-07-10T15:16:22.569178 tid9876 [IFO,App] [UI] JButton "Snap" clicked in RCMController.
+2017-07-10T15:16:34.495860 tid9876 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Waiting for device RCM...
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Finished waiting for device RCM
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Waiting for device DHub...
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Finished waiting for device DHub
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Waiting for device DCam...
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Finished waiting for device DCam
+2017-07-10T15:16:34.495860 tid9876 [dbg,Core] Will unload all devices
+2017-07-10T15:16:34.497860 tid9876 [IFO,Core] Did unload all devices
+2017-07-10T15:16:34.497860 tid9876 [IFO,Core] System reset
+2017-07-10T15:16:34.499860 tid9876 [IFO,Core] Core session ended

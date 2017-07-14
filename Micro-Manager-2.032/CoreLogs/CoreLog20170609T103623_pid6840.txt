@@ -1,0 +1,573 @@
+2017-06-09T10:36:23.780946 tid11916 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170609T103623_pid6840.txt
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] User: Nikon-SIM
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] Host: Nikon-SIM-HP
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] MMCore version 8.5.0
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] Device API version 67, Module API version 10
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-06-09T10:36:23.780946 tid11916 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.6.0_31, 32-bit
+2017-06-09T10:36:23.783946 tid11916 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                    [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-06-09T10:36:23.879952 tid9344 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-06-09T10:36:24.003959 tid9344 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@1f47ae8
+2017-06-09T10:36:24.005959 tid9344 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@142c778
+2017-06-09T10:36:24.006959 tid9344 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@95215b
+2017-06-09T10:36:24.006959 tid9344 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@c10de0
+2017-06-09T10:36:24.007959 tid9344 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@161f39e
+2017-06-09T10:36:24.007959 tid9344 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@18eb7b8
+2017-06-09T10:36:24.008959 tid9344 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@1144ba2
+2017-06-09T10:36:24.008959 tid9344 [IFO,App] Found plugin GaussianTrack_@1719f30
+2017-06-09T10:36:24.009959 tid9344 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@6127da
+2017-06-09T10:36:24.009959 tid9344 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@c5e2cf
+2017-06-09T10:36:24.009959 tid9344 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@1adb7b8
+2017-06-09T10:36:24.009959 tid9344 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@1f8d077
+2017-06-09T10:36:24.009959 tid9344 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@3e5a91
+2017-06-09T10:36:24.009959 tid9344 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@1ac1e22
+2017-06-09T10:36:24.010959 tid9344 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@a826da
+2017-06-09T10:36:24.011959 tid9344 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@1991de1
+2017-06-09T10:36:24.011959 tid9344 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@178aae1
+2017-06-09T10:36:24.011959 tid9344 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@11abd68
+2017-06-09T10:36:24.011959 tid9344 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@8932e8
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@c08593
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@181b3d4
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@45378f
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@29d65b
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin org.micromanager.splitview.SplitView@b8176d
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin PMQI.AutoWB@a1d7b
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@158291
+2017-06-09T10:36:24.012959 tid9344 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-06-09T10:36:24.028960 tid9344 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@15d8d75
+2017-06-09T10:36:24.032961 tid9344 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@7df60a
+2017-06-09T10:36:24.033961 tid9344 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@323274
+2017-06-09T10:36:24.035961 tid9344 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1f10a67
+2017-06-09T10:36:24.038961 tid9344 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@180a8b7
+2017-06-09T10:36:24.039961 tid9344 [IFO,App] Searching for plugins in class loader
+2017-06-09T10:36:24.154968 tid9344 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@1b06a21
+2017-06-09T10:36:24.154968 tid9344 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@107dcfe
+2017-06-09T10:36:24.154968 tid9344 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@67cd84
+2017-06-09T10:36:24.155968 tid9344 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@4693f9
+2017-06-09T10:36:24.155968 tid9344 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@19ce47a
+2017-06-09T10:36:24.155968 tid9344 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@15c2843
+2017-06-09T10:36:24.156968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@acbd3a
+2017-06-09T10:36:24.156968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@bb6086
+2017-06-09T10:36:24.157968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@13a1778
+2017-06-09T10:36:24.157968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@1c4795e
+2017-06-09T10:36:24.158968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@d2b918
+2017-06-09T10:36:24.159968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@7787a5
+2017-06-09T10:36:24.159968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@16a9424
+2017-06-09T10:36:24.160968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@ca6cea
+2017-06-09T10:36:24.160968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@f2da21
+2017-06-09T10:36:24.160968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@1cee361
+2017-06-09T10:36:24.161968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@8be9ef
+2017-06-09T10:36:24.161968 tid9344 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@1ab5dae
+2017-06-09T10:36:24.161968 tid9344 [IFO,App] Plugin loading took 282ms
+2017-06-09T10:36:24.161968 tid11916 [IFO,App] Finished waiting for plugins to load
+2017-06-09T10:36:25.747059 tid11916 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-09T10:36:25.747059 tid11916 [dbg,Core] Will unload all devices
+2017-06-09T10:36:25.747059 tid11916 [IFO,Core] Did unload all devices
+2017-06-09T10:36:25.747059 tid11916 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-09T10:36:25.747059 tid11916 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-09T10:36:25.747059 tid11916 [dbg,Core] Will load device RCM from RCM
+2017-06-09T10:36:25.815063 tid11916 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core] Will load device DHub from DemoCamera
+2017-06-09T10:36:25.815063 tid11916 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core] Will load device DCam from DemoCamera
+2017-06-09T10:36:25.815063 tid11916 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-06-09T10:36:25.815063 tid11916 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-09T10:36:25.815063 tid11916 [IFO,Core] Will initialize 3 devices
+2017-06-09T10:36:25.815063 tid11916 [IFO,Core] Will initialize device RCM
+2017-06-09T10:36:25.815063 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:25.816063 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:25.816063 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:25.829063 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Did initialize device RCM
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Will initialize device DHub
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Did initialize device DHub
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Will initialize device DCam
+2017-06-09T10:36:25.835064 tid11916 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-06-09T10:36:25.835064 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Did initialize device DCam
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Default camera set to DCam
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Finished initializing 3 devices
+2017-06-09T10:36:25.835064 tid11916 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Will set Core property: Camera = DCam
+2017-06-09T10:36:25.835064 tid11916 [IFO,Core] Default camera set to DCam
+2017-06-09T10:36:25.835064 tid11916 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Did set Core property: Camera = DCam
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Autoshutter turned on
+2017-06-09T10:36:25.835064 tid11916 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Waiting for device DHub...
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Finished waiting for device DHub
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Waiting for device DCam...
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Finished waiting for device DCam
+2017-06-09T10:36:25.835064 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:25.835064 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:25.836064 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:25.836064 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:25.836064 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:25.839064 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:25.839064 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:25.843064 tid11916 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-09T10:36:25.850065 tid11916 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-09T10:36:26.557105 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:26.557105 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:26.565105 tid11916 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-06-09T10:36:26.565105 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-09T10:36:26.567106 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:26.567106 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:26.567106 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:26.567106 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:26.568106 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:26.568106 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:26.568106 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:26.572106 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:26.572106 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:26.572106 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:26.574106 tid11916 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.
+2017-06-09T10:36:33.220486 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:33.221486 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:33.221486 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:33.221486 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:33.225486 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:35.763632 tid11916 [IFO,App] Setting value 340 at row 1
+2017-06-09T10:36:35.763632 tid11916 [IFO,App] RCM/Frequency x:340
+2017-06-09T10:36:35.763632 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "340.0000"
+2017-06-09T10:36:35.763632 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:35.764632 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:35.764632 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:35.765632 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:35.768632 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "340.0000"
+2017-06-09T10:36:35.768632 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:35.768632 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:35.768632 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:35.768632 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:35.768632 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:35.768632 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:35.769632 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:35.772632 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:35.772632 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:35.776632 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:35.776632 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:35.777632 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:35.777632 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:35.778632 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:35.778632 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:35.778632 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:35.782633 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:35.784633 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:35.785633 tid11916 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-09T10:36:37.923755 tid11916 [IFO,App] Setting value 0 at row 1
+2017-06-09T10:36:37.923755 tid11916 [IFO,App] RCM/Frequency x:0
+2017-06-09T10:36:37.923755 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "0.0000"
+2017-06-09T10:36:37.923755 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:37.924755 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:37.924755 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:37.924755 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:37.927755 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "0.0000"
+2017-06-09T10:36:37.927755 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:37.927755 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:37.927755 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:37.927755 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:37.927755 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:37.927755 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:37.928755 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:37.931756 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:37.931756 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:37.934756 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:37.935756 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:37.935756 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:37.935756 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:37.936756 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:37.936756 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:37.936756 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:37.940756 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:37.942756 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:39.987873 tid11916 [IFO,App] Setting value 0 at row 1
+2017-06-09T10:36:39.987873 tid11916 [IFO,App] RCM/Frequency x:0
+2017-06-09T10:36:39.987873 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "0.0000"
+2017-06-09T10:36:39.987873 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:39.988873 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:39.988873 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:39.988873 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:39.992873 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "0.0000"
+2017-06-09T10:36:39.992873 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:39.992873 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:39.992873 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:39.992873 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:39.992873 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:39.992873 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:39.993874 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:39.996874 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:39.996874 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:39.999874 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:39.999874 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:39.999874 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:40.000874 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.000874 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.000874 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.001874 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.005874 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:40.006874 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:40.007874 tid11916 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-09T10:36:40.411897 tid11916 [IFO,App] Setting value 10 at row 1
+2017-06-09T10:36:40.411897 tid11916 [IFO,App] RCM/Frequency x:10
+2017-06-09T10:36:40.411897 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "10.0000"
+2017-06-09T10:36:40.411897 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.412898 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.412898 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.412898 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.415898 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "10.0000"
+2017-06-09T10:36:40.415898 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:40.415898 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:40.415898 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:40.415898 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.415898 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.415898 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.416898 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.419898 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:40.419898 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:40.422898 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:40.422898 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:40.422898 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:40.422898 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.424898 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.424898 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.425898 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.429898 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:40.430899 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:40.659912 tid11916 [IFO,App] Setting value 20 at row 1
+2017-06-09T10:36:40.659912 tid11916 [IFO,App] RCM/Frequency x:20
+2017-06-09T10:36:40.659912 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "20.0000"
+2017-06-09T10:36:40.659912 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.660912 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.660912 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.660912 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.664912 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "20.0000"
+2017-06-09T10:36:40.664912 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:40.664912 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:40.664912 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:40.664912 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.664912 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.664912 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.665912 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.668912 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:40.668912 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:40.671912 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:40.671912 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:40.671912 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:40.671912 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.672912 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:40.672912 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:40.672912 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:40.676913 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:40.677913 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:41.234945 tid11916 [IFO,App] Setting value 30 at row 1
+2017-06-09T10:36:41.234945 tid11916 [IFO,App] RCM/Frequency x:30
+2017-06-09T10:36:41.235945 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "30.0000"
+2017-06-09T10:36:41.235945 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.236945 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:41.236945 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.236945 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:41.239945 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "30.0000"
+2017-06-09T10:36:41.239945 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:41.239945 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:41.239945 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:41.239945 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.239945 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:41.239945 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.240945 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:41.243945 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:41.243945 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:41.246945 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:41.246945 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:41.246945 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:41.246945 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.252946 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:41.252946 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.253946 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:41.257946 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:41.258946 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:41.675970 tid11916 [IFO,App] Setting value 40 at row 1
+2017-06-09T10:36:41.675970 tid11916 [IFO,App] RCM/Frequency x:40
+2017-06-09T10:36:41.675970 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "40.0000"
+2017-06-09T10:36:41.675970 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.676970 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:41.676970 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.676970 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:41.679970 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "40.0000"
+2017-06-09T10:36:41.679970 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:41.679970 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:41.679970 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:41.679970 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.680970 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:41.680970 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.680970 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:41.683970 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:41.683970 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:41.685970 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:41.685970 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:41.685970 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:41.686970 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.686970 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:41.686970 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:41.687970 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:41.691971 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:41.692971 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:42.219001 tid11916 [IFO,App] Setting value 50 at row 1
+2017-06-09T10:36:42.219001 tid11916 [IFO,App] RCM/Frequency x:50
+2017-06-09T10:36:42.219001 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "50.0000"
+2017-06-09T10:36:42.220001 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.221001 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:42.221001 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.221001 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:42.224001 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "50.0000"
+2017-06-09T10:36:42.224001 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:42.224001 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:42.224001 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:42.224001 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.224001 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:42.224001 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.225001 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:42.228001 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:42.228001 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:42.230001 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:42.230001 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:42.230001 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:42.230001 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.231001 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:42.231001 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.232002 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:42.236002 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:42.236002 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:42.587022 tid11916 [IFO,App] Setting value 60 at row 1
+2017-06-09T10:36:42.587022 tid11916 [IFO,App] RCM/Frequency x:60
+2017-06-09T10:36:42.587022 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "60.0000"
+2017-06-09T10:36:42.587022 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.588022 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:42.588022 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.589022 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:42.592022 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "60.0000"
+2017-06-09T10:36:42.592022 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:42.592022 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:42.592022 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:42.592022 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.592022 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:42.592022 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.593022 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:42.596022 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:42.596022 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:42.598022 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:42.598022 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:42.598022 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:42.598022 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.599023 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:42.599023 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:42.599023 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:42.603023 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:42.603023 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:43.259060 tid11916 [IFO,App] Setting value 70 at row 1
+2017-06-09T10:36:43.259060 tid11916 [IFO,App] RCM/Frequency x:70
+2017-06-09T10:36:43.259060 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "70.0000"
+2017-06-09T10:36:43.259060 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.261060 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:43.261060 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.261060 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:43.264061 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "70.0000"
+2017-06-09T10:36:43.264061 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:43.264061 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:43.264061 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:43.264061 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.264061 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:43.264061 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.265061 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:43.268061 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:43.268061 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:43.270061 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:43.270061 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:43.270061 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:43.270061 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.271061 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:43.271061 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.271061 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:43.275061 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:43.275061 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:43.819092 tid11916 [IFO,App] Setting value 80 at row 1
+2017-06-09T10:36:43.819092 tid11916 [IFO,App] RCM/Frequency x:80
+2017-06-09T10:36:43.819092 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "80.0000"
+2017-06-09T10:36:43.819092 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.821092 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:43.821092 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.821092 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:43.824093 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "80.0000"
+2017-06-09T10:36:43.824093 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:43.824093 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:43.824093 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:43.824093 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.824093 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:43.824093 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.825093 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:43.828093 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:43.828093 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:43.830093 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:43.830093 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:43.830093 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:43.830093 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.831093 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:43.831093 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:43.832093 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:43.836093 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:43.836093 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:43.837093 tid11916 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-09T10:36:44.003103 tid11916 [IFO,App] Setting value 90 at row 1
+2017-06-09T10:36:44.003103 tid11916 [IFO,App] RCM/Frequency x:90
+2017-06-09T10:36:44.003103 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "90.0000"
+2017-06-09T10:36:44.003103 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.004103 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.004103 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.005103 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.008103 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "90.0000"
+2017-06-09T10:36:44.008103 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:44.008103 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:44.008103 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:44.008103 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.008103 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.008103 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.009103 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.012103 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.012103 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:44.014103 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:44.014103 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:44.014103 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:44.014103 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.015104 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.015104 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.015104 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.018104 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.019104 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:44.020104 tid11916 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-09T10:36:44.163112 tid11916 [IFO,App] Setting value 100 at row 1
+2017-06-09T10:36:44.163112 tid11916 [IFO,App] RCM/Frequency x:100
+2017-06-09T10:36:44.163112 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "100.0000"
+2017-06-09T10:36:44.163112 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.164112 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.164112 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.165112 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.168112 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "100.0000"
+2017-06-09T10:36:44.168112 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:44.168112 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:44.168112 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:44.168112 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.168112 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.168112 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.169112 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.172113 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.172113 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:44.174113 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:44.174113 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:44.174113 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:44.174113 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.175113 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.175113 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.175113 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.178113 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.180113 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:44.181113 tid11916 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-09T10:36:44.403126 tid11916 [IFO,App] Setting value 110 at row 1
+2017-06-09T10:36:44.403126 tid11916 [IFO,App] RCM/Frequency x:110
+2017-06-09T10:36:44.403126 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "110.0000"
+2017-06-09T10:36:44.403126 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.404126 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.404126 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.405126 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.408126 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "110.0000"
+2017-06-09T10:36:44.408126 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:44.408126 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:44.408126 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:44.408126 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.408126 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.408126 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.409126 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.412126 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.412126 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:44.413126 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:44.414126 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:44.414126 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:44.414126 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.415126 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.415126 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.415126 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.418127 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.419127 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:44.659140 tid11916 [IFO,App] Setting value 120 at row 1
+2017-06-09T10:36:44.659140 tid11916 [IFO,App] RCM/Frequency x:120
+2017-06-09T10:36:44.659140 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "120.0000"
+2017-06-09T10:36:44.659140 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.660140 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.660140 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.661140 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.664141 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "120.0000"
+2017-06-09T10:36:44.664141 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:44.664141 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:44.664141 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:44.664141 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.664141 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.664141 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.665141 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.668141 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.668141 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:44.669141 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:44.670141 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:44.670141 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:44.670141 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.671141 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.671141 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.671141 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.674141 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.675141 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:44.859152 tid11916 [IFO,App] Setting value 130 at row 1
+2017-06-09T10:36:44.859152 tid11916 [IFO,App] RCM/Frequency x:130
+2017-06-09T10:36:44.859152 tid11916 [dbg,Core:dev:RCM] Will set property "Frequency x" to "130.0000"
+2017-06-09T10:36:44.859152 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.861152 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.861152 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.861152 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.864152 tid11916 [dbg,Core:dev:RCM] Did set property "Frequency x" to "130.0000"
+2017-06-09T10:36:44.864152 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:44.864152 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:44.864152 tid11916 [dbg,Core] Will update system state cache
+2017-06-09T10:36:44.864152 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.864152 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.864152 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.865152 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.868152 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.868152 tid11916 [IFO,Core] Did update system state cache
+2017-06-09T10:36:44.869152 tid11916 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-09T10:36:44.870152 tid11916 [IFO,App] Rebuilding config group table
+2017-06-09T10:36:44.870152 tid11916 [IFO,App] Finished rebuilding config group table
+2017-06-09T10:36:44.870152 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.871153 tid11916 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-09T10:36:44.871153 tid11916 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-09T10:36:44.871153 tid11916 [IFO,dev:RCM] Starting sequence
+2017-06-09T10:36:44.874153 tid11916 [dbg,dev:DCam] Reading property ScanMode
+2017-06-09T10:36:44.875153 tid11916 [IFO,App] Finished updating GUI
+2017-06-09T10:36:44.876153 tid11916 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-09T10:36:48.915384 tid11916 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Waiting for device RCM...
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Finished waiting for device RCM
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Waiting for device DHub...
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Finished waiting for device DHub
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Waiting for device DCam...
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Finished waiting for device DCam
+2017-06-09T10:36:48.915384 tid11916 [dbg,Core] Will unload all devices
+2017-06-09T10:36:48.916384 tid11916 [IFO,Core] Did unload all devices
+2017-06-09T10:36:48.916384 tid11916 [IFO,Core] System reset
+2017-06-09T10:36:48.918384 tid11916 [IFO,Core] Core session ended

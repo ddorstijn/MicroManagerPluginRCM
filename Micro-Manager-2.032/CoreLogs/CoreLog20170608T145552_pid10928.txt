@@ -1,0 +1,176 @@
+2017-06-08T14:55:52.620696 tid9476 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170608T145552_pid10928.txt
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] User: Nikon-SIM
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] Host: Nikon-SIM-HP
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] MMCore version 8.5.0
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] Device API version 67, Module API version 10
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.6.0_31, 32-bit
+2017-06-08T14:55:52.620696 tid9476 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-06-08T14:55:52.720696 tid10484 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-06-08T14:55:52.850697 tid10484 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@162ba99
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@75f5b7
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@161f39e
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@1c13d0b
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@bfbbe3
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@1144ba2
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@8de972
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin GaussianTrack_@d964af
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@1ac1e22
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@a826da
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@18ed77a
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@e496ab
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@15fc672
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@dd8e0d
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@178aae1
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@16d3536
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@c08593
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@181b3d4
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@45378f
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@29d65b
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@b8176d
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@a1d7b
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@158291
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.splitview.SplitView@178b64b
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin PMQI.AutoWB@18f9b75
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@127461b
+2017-06-08T14:55:52.860697 tid10484 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-06-08T14:55:52.880697 tid10484 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@7bfc04
+2017-06-08T14:55:52.880697 tid10484 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@1d03a4e
+2017-06-08T14:55:52.890697 tid10484 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@c5577c
+2017-06-08T14:55:52.890697 tid10484 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1c293f8
+2017-06-08T14:55:52.890697 tid10484 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@1d8f162
+2017-06-08T14:55:52.890697 tid10484 [IFO,App] Searching for plugins in class loader
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@cc5436
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@acbd3a
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@bb6086
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@dafa2c
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@5e9db7
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@1c4795e
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@2b1682
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@7616ad
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@7787a5
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@ca6cea
+2017-06-08T14:55:53.010697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@1b22d99
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@1ab5dae
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@19360e7
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@8ef177
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@1017ca1
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@9d5793
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@d1a1ab
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@cd2192
+2017-06-08T14:55:53.020697 tid10484 [IFO,App] Plugin loading took 300ms
+2017-06-08T14:55:53.020697 tid9476 [IFO,App] Finished waiting for plugins to load
+2017-06-08T14:55:55.268700 tid9476 [IFO,Core] Did unload all devices
+2017-06-08T14:55:55.361701 tid9476 [IFO,Core] Did load device AnalogIO from NI100X; label = AnalogIO
+2017-06-08T14:55:55.361701 tid9476 [IFO,Core] Will initialize 1 devices
+2017-06-08T14:55:55.361701 tid9476 [IFO,Core] Will initialize device AnalogIO
+2017-06-08T14:55:55.361701 tid9476 [IFO,dev:AnalogIO] Cancelling task for Dev1/ao0
+2017-06-08T14:55:55.361701 tid9476 [IFO,dev:AnalogIO] Setting up task for Dev1/ao0
+2017-06-08T14:55:55.361701 tid9476 [IFO,dev:AnalogIO] Cancelling task for Dev1/ao0
+2017-06-08T14:55:55.381701 tid9476 [IFO,dev:AnalogIO] Cancelling task for Dev1/ao0
+2017-06-08T14:55:55.381701 tid9476 [IFO,dev:AnalogIO] Setting up task for Dev1/ao0
+2017-06-08T14:55:55.381701 tid9476 [IFO,dev:AnalogIO] Cancelling task for Dev1/ao0
+2017-06-08T14:55:55.391701 tid9476 [IFO,dev:AnalogIO] Setting up task for Dev1/ao0
+2017-06-08T14:55:55.391701 tid9476 [IFO,dev:AnalogIO] Cancelling task for Dev1/ao0
+2017-06-08T14:55:55.391701 tid9476 [IFO,Core] Did initialize device AnalogIO
+2017-06-08T14:55:55.391701 tid9476 [IFO,Core] Finished initializing 1 devices
+2017-06-08T14:55:55.391701 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:55:56.113702 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:55:56.113702 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:55:57.395704 tid9952 [IFO,Core] Did unload all devices
+2017-06-08T14:55:57.395704 tid9952 [IFO,Core] System reset
+2017-06-08T14:55:57.415704 tid9952 [IFO,App] NI100X
+2017-06-08T14:55:57.415704 tid9952 [IFO,App]    AnalogIO, NI analog IO
+2017-06-08T14:55:57.415704 tid9952 [IFO,App] RCM
+2017-06-08T14:55:57.415704 tid9952 [IFO,App]    RCM, NI DAQ control unit
+2017-06-08T14:56:01.486715 tid9476 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-06-08T14:56:12.294736 tid9476 [IFO,Core] Will initialize device RCM
+2017-06-08T14:56:12.294736 tid9476 [IFO,Core] Did initialize device RCM
+2017-06-08T14:56:19.576750 tid9476 [IFO,Core] Did unload all devices
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Did unload all devices
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Will initialize 1 devices
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Will initialize device RCM
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Did initialize device RCM
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Finished initializing 1 devices
+2017-06-08T14:56:19.767751 tid9952 [IFO,Core] Did update system state cache
+2017-06-08T14:56:19.837751 tid9952 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T14:56:19.837751 tid9952 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:19.837751 tid9952 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:19.837751 tid9952 [IFO,Core] Did update system state cache
+2017-06-08T14:56:19.837751 tid9952 [IFO,App] Finished updating GUI
+2017-06-08T14:56:30.642774 tid9476 [IFO,App] Setting value 256 at row 0
+2017-06-08T14:56:30.642774 tid9476 [IFO,App] RCM/FoV:256
+2017-06-08T14:56:30.642774 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:30.642774 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:30.642774 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:30.642774 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:30.642774 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:31.734778 tid9476 [IFO,App] Setting value 10 at row 1
+2017-06-08T14:56:31.734778 tid9476 [IFO,App] RCM/Frequency x:10
+2017-06-08T14:56:31.734778 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:31.734778 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:31.744778 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:31.744778 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:31.744778 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:32.117779 tid9476 [IFO,App] Setting value 20 at row 1
+2017-06-08T14:56:32.117779 tid9476 [IFO,App] RCM/Frequency x:20
+2017-06-08T14:56:32.117779 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:32.127779 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:32.127779 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:32.127779 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:32.127779 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:32.454780 tid9476 [IFO,App] Setting value 1 at row 3
+2017-06-08T14:56:32.454780 tid9476 [IFO,App] RCM/Laser off:1
+2017-06-08T14:56:32.454780 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:32.454780 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:32.454780 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:32.454780 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:32.454780 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:32.674781 tid9476 [IFO,App] Setting value 2 at row 3
+2017-06-08T14:56:32.674781 tid9476 [IFO,App] RCM/Laser off:2
+2017-06-08T14:56:32.674781 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:32.674781 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:32.674781 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:32.674781 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:32.674781 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:32.999782 tid9476 [IFO,App] Setting value 30 at row 1
+2017-06-08T14:56:32.999782 tid9476 [IFO,App] RCM/Frequency x:30
+2017-06-08T14:56:32.999782 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:32.999782 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:32.999782 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:32.999782 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:33.009782 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:33.348783 tid9476 [IFO,App] Setting value 3 at row 3
+2017-06-08T14:56:33.348783 tid9476 [IFO,App] RCM/Laser off:3
+2017-06-08T14:56:33.348783 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:33.348783 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:33.348783 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:33.348783 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:33.348783 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:33.941785 tid9476 [IFO,App] Setting value 0 at row 6
+2017-06-08T14:56:33.941785 tid9476 [IFO,App] RCM/Offset Re-scan x:0
+2017-06-08T14:56:33.941785 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:33.951785 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:33.951785 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:33.951785 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:33.951785 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:56:38.706794 tid9476 [IFO,App] Setting value 0 at row 7
+2017-06-08T14:56:38.706794 tid9476 [IFO,App] RCM/Offset Re-scan y:0
+2017-06-08T14:56:38.706794 tid9476 [IFO,Core] Did update system state cache
+2017-06-08T14:56:38.706794 tid9476 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T14:56:38.706794 tid9476 [IFO,App] Rebuilding config group table
+2017-06-08T14:56:38.706794 tid9476 [IFO,App] Finished rebuilding config group table
+2017-06-08T14:56:38.706794 tid9476 [IFO,App] Finished updating GUI
+2017-06-08T14:57:08.920856 tid9476 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-06-08T14:57:08.920856 tid9476 [IFO,Core] Did unload all devices
+2017-06-08T14:57:08.920856 tid9476 [IFO,Core] System reset
+2017-06-08T14:57:08.920856 tid9476 [IFO,Core] Core session ended

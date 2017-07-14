@@ -1,0 +1,328 @@
+2017-07-10T13:56:39.470600 tid4100 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170710T135639_pid6648.txt
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] User: Nikon-SIM
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] Host: Nikon-SIM-HP
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] MMCore version 8.5.0
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] Device API version 67, Module API version 10
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-10T13:56:39.470600 tid4100 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.8.0_131, 32-bit
+2017-07-10T13:56:39.472600 tid4100 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-10T13:56:39.601608 tid6948 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-07-10T13:56:39.712614 tid6948 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@18e7d8b
+2017-07-10T13:56:39.716614 tid6948 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@d71dd9
+2017-07-10T13:56:39.717614 tid6948 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@948a94
+2017-07-10T13:56:39.718614 tid6948 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@265c0b
+2017-07-10T13:56:39.719614 tid6948 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@11414e0
+2017-07-10T13:56:39.719614 tid6948 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@14cdf0d
+2017-07-10T13:56:39.720614 tid6948 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@1dee4b2
+2017-07-10T13:56:39.720614 tid6948 [IFO,App] Found plugin GaussianTrack_@b90397
+2017-07-10T13:56:39.721614 tid6948 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@1542f75
+2017-07-10T13:56:39.722614 tid6948 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@9d01ca
+2017-07-10T13:56:39.722614 tid6948 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@f3a719
+2017-07-10T13:56:39.722614 tid6948 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@c81b35
+2017-07-10T13:56:39.722614 tid6948 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@15d5ffc
+2017-07-10T13:56:39.723614 tid6948 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@1208dcc
+2017-07-10T13:56:39.723614 tid6948 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@1fe8547
+2017-07-10T13:56:39.724615 tid6948 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@197ca29
+2017-07-10T13:56:39.725615 tid6948 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@7aaa61
+2017-07-10T13:56:39.725615 tid6948 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@10072c0
+2017-07-10T13:56:39.725615 tid6948 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@78ae1
+2017-07-10T13:56:39.726615 tid6948 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@a68a
+2017-07-10T13:56:39.726615 tid6948 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@f068a9
+2017-07-10T13:56:39.727615 tid6948 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@1d531b0
+2017-07-10T13:56:39.727615 tid6948 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@1ac6006
+2017-07-10T13:56:39.727615 tid6948 [IFO,App] Found plugin org.micromanager.splitview.SplitView@7fb68f
+2017-07-10T13:56:39.727615 tid6948 [IFO,App] Found plugin PMQI.AutoWB@10b2b09
+2017-07-10T13:56:39.727615 tid6948 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@141d229
+2017-07-10T13:56:39.728615 tid6948 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-07-10T13:56:39.751616 tid6948 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@1e5a5fb
+2017-07-10T13:56:39.754616 tid6948 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@135907d
+2017-07-10T13:56:39.755616 tid6948 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@13ce679
+2017-07-10T13:56:39.756616 tid6948 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@af4d77
+2017-07-10T13:56:39.758617 tid6948 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@1c54511
+2017-07-10T13:56:39.759617 tid6948 [IFO,App] Searching for plugins in class loader
+2017-07-10T13:56:39.892624 tid6948 [IFO,App] Found plugin main.java.org.micromanager.rcm.RCM@11770ee
+2017-07-10T13:56:39.892624 tid6948 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@87e93e
+2017-07-10T13:56:39.892624 tid6948 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@73a457
+2017-07-10T13:56:39.892624 tid6948 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@2d68ac
+2017-07-10T13:56:39.893624 tid6948 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@8f1682
+2017-07-10T13:56:39.893624 tid6948 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@4cc7f3
+2017-07-10T13:56:39.893624 tid6948 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@1f500cd
+2017-07-10T13:56:39.894624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@100e9e
+2017-07-10T13:56:39.894624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@46e045
+2017-07-10T13:56:39.894624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@1a624e5
+2017-07-10T13:56:39.895624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@97c6f8
+2017-07-10T13:56:39.895624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@1a332f3
+2017-07-10T13:56:39.896624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@7e4c81
+2017-07-10T13:56:39.896624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@8cc97
+2017-07-10T13:56:39.897624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@1af78b9
+2017-07-10T13:56:39.897624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@377578
+2017-07-10T13:56:39.897624 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@d7a777
+2017-07-10T13:56:39.898625 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@53bf00
+2017-07-10T13:56:39.898625 tid6948 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@1c844a2
+2017-07-10T13:56:39.898625 tid6948 [IFO,App] Plugin loading took 297ms
+2017-07-10T13:56:39.898625 tid4100 [IFO,App] Finished waiting for plugins to load
+2017-07-10T13:56:41.860737 tid4100 [IFO,App] [UI] JComboBox clicked in IntroDlg.
+2017-07-10T13:56:45.259931 tid4100 [IFO,App] [UI]  "ComboBox.list" set to "C:\Program Files\Micro-Manager-2.032\MMConfig_demo.cfg" in IntroDlg.
+2017-07-10T13:56:46.181984 tid4100 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-10T13:56:46.181984 tid4100 [dbg,Core] Will unload all devices
+2017-07-10T13:56:46.181984 tid4100 [IFO,Core] Did unload all devices
+2017-07-10T13:56:46.181984 tid4100 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DCam from DemoCamera; label = Camera
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DWheel from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DWheel from DemoCamera; label = Dichroic
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DWheel from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DWheel from DemoCamera; label = Emission
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DWheel from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DWheel from DemoCamera; label = Excitation
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DObjective from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DObjective from DemoCamera; label = Objective
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DStage from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DStage from DemoCamera; label = Z
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DLightPath from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DLightPath from DemoCamera; label = Path
+2017-07-10T13:56:46.182984 tid4100 [dbg,Core] Will load device DXYStage from DemoCamera
+2017-07-10T13:56:46.182984 tid4100 [IFO,Core] Did load device DXYStage from DemoCamera; label = XY
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Will load device DShutter from DemoCamera
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did load device DShutter from DemoCamera; label = Shutter
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Will load device DAutoFocus from DemoCamera
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did load device DAutoFocus from DemoCamera; label = Autofocus
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize 11 devices
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device DHub
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device DHub
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Camera
+2017-07-10T13:56:46.183984 tid4100 [dbg,dev:Camera] Setting Allowed Binning settings
+2017-07-10T13:56:46.183984 tid4100 [dbg,dev:Camera] Reading property ScanMode
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Camera
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Default camera set to Camera
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Dichroic
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Dichroic
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Emission
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Emission
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Excitation
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Excitation
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Objective
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Objective
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Z
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Z
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Path
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Path
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device XY
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device XY
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Default xy stage set to XY
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Shutter
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Shutter
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Default shutter set to Shutter
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Will initialize device Autofocus
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Did initialize device Autofocus
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Default autofocus set to Autofocus
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Finished initializing 11 devices
+2017-07-10T13:56:46.183984 tid4100 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Will set Core property: Camera = Camera
+2017-07-10T13:56:46.183984 tid4100 [IFO,Core] Default camera set to Camera
+2017-07-10T13:56:46.183984 tid4100 [dbg,App] Notification for Device: Core Property: Camera changed to value: Camera
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Did set Core property: Camera = Camera
+2017-07-10T13:56:46.183984 tid4100 [dbg,Core] Will set Core property: Shutter = Shutter
+2017-07-10T13:56:46.191984 tid4100 [dbg,App] Notification for Device: Core Property: Shutter changed to value: Shutter
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Did set Core property: Shutter = Shutter
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Will set Core property: Focus = Z
+2017-07-10T13:56:46.191984 tid4100 [IFO,Core] Default stage set to Z
+2017-07-10T13:56:46.191984 tid4100 [dbg,App] Notification for Device: Core Property: Focus changed to value: Z
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Did set Core property: Focus = Z
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Autoshutter turned on
+2017-07-10T13:56:46.191984 tid4100 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Defined label State-9 for device Dichroic state 9
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Defined label State-8 for device Dichroic state 8
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Defined label State-7 for device Dichroic state 7
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Defined label State-6 for device Dichroic state 6
+2017-07-10T13:56:46.191984 tid4100 [dbg,Core] Defined label State-5 for device Dichroic state 5
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-4 for device Dichroic state 4
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-3 for device Dichroic state 3
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Q585LP for device Dichroic state 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Q505LP for device Dichroic state 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label 400DCLP for device Dichroic state 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-9 for device Emission state 9
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-8 for device Emission state 8
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-7 for device Emission state 7
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-6 for device Emission state 6
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-5 for device Emission state 5
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-4 for device Emission state 4
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-HQ700 for device Emission state 3
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-HQ535 for device Emission state 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-D460 for device Emission state 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-HQ620 for device Emission state 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-9 for device Excitation state 9
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-8 for device Excitation state 8
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-7 for device Excitation state 7
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-6 for device Excitation state 6
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-5 for device Excitation state 5
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-4 for device Excitation state 4
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-HQ620 for device Excitation state 3
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-HQ570 for device Excitation state 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-HQ480 for device Excitation state 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Chroma-D360 for device Excitation state 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Objective-5 for device Objective state 5
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Objective-4 for device Objective state 4
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Nikon 20X Plan Fluor ELWD for device Objective state 3
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Objective-2 for device Objective state 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Nikon 10X S Fluor for device Objective state 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label Nikon 40X Plan Flueor ELWD for device Objective state 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-2 for device Path state 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-1 for device Path state 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Defined label State-0 for device Path state 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Camera: preset MedRes: added setting Camera-Binning = 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Camera: preset MedRes: added setting Camera-BitDepth = 10
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Camera: preset HighRes: added setting Camera-Binning = 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Camera: preset HighRes: added setting Camera-BitDepth = 12
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Camera: preset LowRes: added setting Camera-Binning = 4
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Camera: preset LowRes: added setting Camera-BitDepth = 8
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Objective: preset 20X: added setting Objective-State = 3
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Objective: preset 40X: added setting Objective-State = 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Objective: preset 10X: added setting Objective-State = 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset FITC: added setting Dichroic-Label = Q505LP
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset FITC: added setting Emission-Label = Chroma-HQ535
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset FITC: added setting Excitation-Label = Chroma-HQ480
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset Rhodamine: added setting Dichroic-Label = Q585LP
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset Rhodamine: added setting Emission-Label = Chroma-HQ700
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset Rhodamine: added setting Excitation-Label = Chroma-HQ570
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset DAPI: added setting Dichroic-Label = 400DCLP
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset DAPI: added setting Emission-Label = Chroma-HQ620
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset DAPI: added setting Excitation-Label = Chroma-D360
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset Cy5: added setting Dichroic-Label = 400DCLP
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset Cy5: added setting Emission-Label = Chroma-HQ700
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group Channel: preset Cy5: added setting Excitation-Label = Chroma-HQ570
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group System: preset Startup: added setting Camera-BitDepth = 16
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group System: preset Startup: added setting Camera-ScanMode = 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group System: preset Startup: added setting Objective-Label = Nikon 10X S Fluor
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group System: preset Startup: added setting Camera-Binning = 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group LightPath: preset Camera-left: added setting Path-State = 1
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group LightPath: preset Eyepiece: added setting Path-State = 0
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Config group LightPath: preset Camera-right: added setting Path-State = 2
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Pixel size config: preset Res20x: added setting : Objective-Label = Nikon 20X Plan Fluor ELWD
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Pixel size config: preset Res20x: set resolution to 0.50000 um/px
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Pixel size config: preset Res40x: added setting : Objective-Label = Nikon 40X Plan Flueor ELWD
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Pixel size config: preset Res40x: set resolution to 0.25000 um/px
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Pixel size config: preset Res10x: added setting : Objective-Label = Nikon 10X S Fluor
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Pixel size config: preset Res10x: set resolution to 1.00000 um/px
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device DHub...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device DHub
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Camera...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Camera
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Dichroic...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Dichroic
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Emission...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Emission
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Excitation...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Excitation
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Objective...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Objective
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Z...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Z
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Path...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Path
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device XY...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device XY
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Shutter...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Shutter
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Waiting for device Autofocus...
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Finished waiting for device Autofocus
+2017-07-10T13:56:46.192985 tid4100 [dbg,Core] Will update system state cache
+2017-07-10T13:56:46.193985 tid4100 [dbg,dev:Camera] Reading property ScanMode
+2017-07-10T13:56:46.193985 tid4100 [IFO,Core] Did update system state cache
+2017-07-10T13:56:46.193985 tid4100 [dbg,Core] Config group System: will apply preset Startup
+2017-07-10T13:56:46.193985 tid4100 [dbg,Core:dev:Camera] Will set property "BitDepth" to "16"
+2017-07-10T13:56:46.193985 tid4100 [dbg,Core:dev:Camera] Did set property "BitDepth" to "16"
+2017-07-10T13:56:46.193985 tid4100 [dbg,Core:dev:Camera] Will set property "ScanMode" to "1"
+2017-07-10T13:56:46.193985 tid4100 [dbg,dev:Camera] Setting Allowed Binning settings
+2017-07-10T13:56:46.193985 tid4100 [dbg,App] Notification from MMCore ignored since the system is still loading
+2017-07-10T13:56:46.193985 tid4100 [dbg,Core:dev:Camera] Did set property "ScanMode" to "1"
+2017-07-10T13:56:46.193985 tid4100 [dbg,Core:dev:Objective] Will set property "Label" to "Nikon 10X S Fluor"
+2017-07-10T13:56:46.193985 tid4100 [dbg,App] Notification for Device: Objective Property: State changed to value: 1
+2017-07-10T13:56:46.193985 tid4100 [dbg,App] Notification for Device: Objective Property: Label changed to value: Nikon 10X S Fluor
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core:dev:Objective] Did set property "Label" to "Nikon 10X S Fluor"
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core:dev:Camera] Will set property "Binning" to "1"
+2017-07-10T13:56:46.194985 tid4100 [dbg,App] Notification for Device: Camera Property: Binning changed to value: 1
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core:dev:Camera] Did set property "Binning" to "1"
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Config group System: did apply preset Startup
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device DHub...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device DHub
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Camera...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Camera
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Dichroic...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Dichroic
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Emission...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Emission
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Excitation...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Excitation
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Objective...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Objective
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Z...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Z
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Path...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Path
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device XY...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device XY
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Shutter...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Shutter
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Waiting for device Autofocus...
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Finished waiting for device Autofocus
+2017-07-10T13:56:46.194985 tid4100 [dbg,Core] Will update system state cache
+2017-07-10T13:56:46.194985 tid4100 [dbg,dev:Camera] Reading property ScanMode
+2017-07-10T13:56:46.195985 tid4100 [IFO,Core] Did update system state cache
+2017-07-10T13:56:46.199985 tid4100 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-10T13:56:46.205985 tid4100 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-10T13:56:46.223986 tid4100 [IFO,Core] Default autofocus set to Autofocus
+2017-07-10T13:56:46.900025 tid4100 [IFO,App] Rebuilding config group table
+2017-07-10T13:56:46.901025 tid4100 [dbg,dev:Camera] Reading property ScanMode
+2017-07-10T13:56:46.901025 tid4100 [IFO,App] Finished rebuilding config group table
+2017-07-10T13:56:46.909025 tid4100 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-07-10T13:56:46.909025 tid4100 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-10T13:56:46.909025 tid4100 [dbg,dev:Z] Reporting position
+2017-07-10T13:56:46.919026 tid4100 [IFO,Core] Default autofocus set to Autofocus
+2017-07-10T13:56:46.921026 tid4100 [IFO,App] Rebuilding config group table
+2017-07-10T13:56:46.921026 tid4100 [dbg,dev:Camera] Reading property ScanMode
+2017-07-10T13:56:46.921026 tid4100 [IFO,App] Finished rebuilding config group table
+2017-07-10T13:56:46.921026 tid4100 [dbg,Core] Will update system state cache
+2017-07-10T13:56:46.921026 tid4100 [dbg,dev:Camera] Reading property ScanMode
+2017-07-10T13:56:46.921026 tid4100 [IFO,Core] Did update system state cache
+2017-07-10T13:56:46.922026 tid4100 [IFO,App] Finished updating GUI
+2017-07-10T13:56:46.924026 tid4100 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.
+2017-07-10T13:56:48.540119 tid4100 [IFO,App] [UI] SortedMenu "Plugins" clicked in MainFrame.
+2017-07-10T13:56:49.468172 tid4100 [IFO,App] [UI] SortedMenu "Acquisition Tools" clicked in MainFrame.
+2017-07-10T13:56:54.051434 tid4100 [IFO,App] [UI] JTextArea clicked in AlertsWindow.
+2017-07-10T13:57:00.194785 tid4100 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device DHub...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device DHub
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Camera...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Camera
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Dichroic...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Dichroic
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Emission...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Emission
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Excitation...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Excitation
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Objective...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Objective
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Z...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Z
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Path...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Path
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device XY...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device XY
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Shutter...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Shutter
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Waiting for device Autofocus...
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Finished waiting for device Autofocus
+2017-07-10T13:57:00.194785 tid4100 [dbg,Core] Will unload all devices
+2017-07-10T13:57:00.194785 tid4100 [IFO,Core] Did unload all devices
+2017-07-10T13:57:00.195785 tid4100 [IFO,Core] System reset
+2017-07-10T13:57:00.196785 tid4100 [IFO,Core] Core session ended

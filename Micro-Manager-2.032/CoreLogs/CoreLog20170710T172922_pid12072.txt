@@ -1,0 +1,2072 @@
+2017-07-10T17:29:22.933628 tid10908 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170710T172922_pid12072.txt
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] User: Nikon-SIM
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] Host: Nikon-SIM-HP
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] MMCore version 8.5.0
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] Device API version 67, Module API version 10
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-10T17:29:22.933628 tid10908 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.8.0_131, 32-bit
+2017-07-10T17:29:22.936629 tid10908 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                    [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-10T17:29:23.039634 tid912 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-07-10T17:29:23.138640 tid912 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@78cb8d
+2017-07-10T17:29:23.141640 tid912 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@cf08c4
+2017-07-10T17:29:23.142640 tid912 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@dd4f14
+2017-07-10T17:29:23.142640 tid912 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@16ee6b6
+2017-07-10T17:29:23.143640 tid912 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@8b71fe
+2017-07-10T17:29:23.143640 tid912 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@e6d0f
+2017-07-10T17:29:23.143640 tid912 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@33a569
+2017-07-10T17:29:23.144640 tid912 [IFO,App] Found plugin GaussianTrack_@17f35f9
+2017-07-10T17:29:23.144640 tid912 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@c7e359
+2017-07-10T17:29:23.145640 tid912 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@1ae9cea
+2017-07-10T17:29:23.145640 tid912 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@10d0743
+2017-07-10T17:29:23.145640 tid912 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@85e490
+2017-07-10T17:29:23.145640 tid912 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@bf65f8
+2017-07-10T17:29:23.145640 tid912 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@183e389
+2017-07-10T17:29:23.146641 tid912 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@762c62
+2017-07-10T17:29:23.146641 tid912 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@10bfcf8
+2017-07-10T17:29:23.147641 tid912 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@33c407
+2017-07-10T17:29:23.147641 tid912 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@d06cb4
+2017-07-10T17:29:23.147641 tid912 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@1cc4db0
+2017-07-10T17:29:23.148641 tid912 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@6d180b
+2017-07-10T17:29:23.148641 tid912 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@10f7d3b
+2017-07-10T17:29:23.148641 tid912 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@5035b6
+2017-07-10T17:29:23.148641 tid912 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@7f899c
+2017-07-10T17:29:23.148641 tid912 [IFO,App] Found plugin org.micromanager.splitview.SplitView@f07fd8
+2017-07-10T17:29:23.148641 tid912 [IFO,App] Found plugin PMQI.AutoWB@e42318
+2017-07-10T17:29:23.149641 tid912 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@1f65a37
+2017-07-10T17:29:23.149641 tid912 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-07-10T17:29:23.165642 tid912 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@5f7559
+2017-07-10T17:29:23.171642 tid912 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@11b94ff
+2017-07-10T17:29:23.171642 tid912 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@1b3f032
+2017-07-10T17:29:23.172642 tid912 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@131a483
+2017-07-10T17:29:23.174642 tid912 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@15cc4d9
+2017-07-10T17:29:23.175642 tid912 [IFO,App] Searching for plugins in class loader
+2017-07-10T17:29:23.267647 tid912 [IFO,App] Found plugin main.java.org.micromanager.rcm.RCM@ec1296
+2017-07-10T17:29:23.267647 tid912 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@142648
+2017-07-10T17:29:23.267647 tid912 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@171156
+2017-07-10T17:29:23.267647 tid912 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@67d1f3
+2017-07-10T17:29:23.268648 tid912 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@146f58e
+2017-07-10T17:29:23.268648 tid912 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@e6c25b
+2017-07-10T17:29:23.268648 tid912 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@32a0b4
+2017-07-10T17:29:23.269648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@17caa31
+2017-07-10T17:29:23.269648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@19fa8cf
+2017-07-10T17:29:23.269648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@19ace02
+2017-07-10T17:29:23.270648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@56b15a
+2017-07-10T17:29:23.270648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@aa5926
+2017-07-10T17:29:23.271648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@1e4e382
+2017-07-10T17:29:23.271648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@189e531
+2017-07-10T17:29:23.271648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@ce74bd
+2017-07-10T17:29:23.272648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@177e43c
+2017-07-10T17:29:23.272648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@a51db3
+2017-07-10T17:29:23.272648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@133614a
+2017-07-10T17:29:23.273648 tid912 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@19fbc9a
+2017-07-10T17:29:23.273648 tid912 [IFO,App] Plugin loading took 234ms
+2017-07-10T17:29:23.273648 tid10908 [IFO,App] Finished waiting for plugins to load
+2017-07-10T17:29:24.821736 tid10908 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-10T17:29:24.821736 tid10908 [dbg,Core] Will unload all devices
+2017-07-10T17:29:24.821736 tid10908 [IFO,Core] Did unload all devices
+2017-07-10T17:29:24.821736 tid10908 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-10T17:29:24.822736 tid10908 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-10T17:29:24.822736 tid10908 [dbg,Core] Will load device RCM from RCM
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-07-10T17:29:24.885740 tid10908 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Will initialize 3 devices
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Will initialize device RCM
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Did initialize device RCM
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Will initialize device DHub
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Did initialize device DHub
+2017-07-10T17:29:24.885740 tid10908 [IFO,Core] Will initialize device DCam
+2017-07-10T17:29:24.885740 tid10908 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-07-10T17:29:24.886740 tid10908 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T17:29:24.886740 tid10908 [IFO,Core] Did initialize device DCam
+2017-07-10T17:29:24.886740 tid10908 [IFO,Core] Default camera set to DCam
+2017-07-10T17:29:24.886740 tid10908 [IFO,Core] Finished initializing 3 devices
+2017-07-10T17:29:24.886740 tid10908 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Will set Core property: Camera = DCam
+2017-07-10T17:29:24.886740 tid10908 [IFO,Core] Default camera set to DCam
+2017-07-10T17:29:24.886740 tid10908 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Did set Core property: Camera = DCam
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:24.886740 tid10908 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Waiting for device RCM...
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Finished waiting for device RCM
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Waiting for device DHub...
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Finished waiting for device DHub
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:24.886740 tid10908 [dbg,Core] Will update system state cache
+2017-07-10T17:29:24.886740 tid10908 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T17:29:24.886740 tid10908 [IFO,Core] Did update system state cache
+2017-07-10T17:29:24.891740 tid10908 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-10T17:29:24.897741 tid10908 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-10T17:29:25.722788 tid10908 [IFO,App] Rebuilding config group table
+2017-07-10T17:29:25.722788 tid10908 [IFO,App] Finished rebuilding config group table
+2017-07-10T17:29:25.730788 tid10908 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-07-10T17:29:25.730788 tid10908 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-10T17:29:25.732788 tid10908 [IFO,App] Rebuilding config group table
+2017-07-10T17:29:25.732788 tid10908 [IFO,App] Finished rebuilding config group table
+2017-07-10T17:29:25.732788 tid10908 [dbg,Core] Will update system state cache
+2017-07-10T17:29:25.733789 tid10908 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T17:29:25.733789 tid10908 [IFO,Core] Did update system state cache
+2017-07-10T17:29:25.733789 tid10908 [IFO,App] Finished updating GUI
+2017-07-10T17:29:26.700844 tid10908 [IFO,App] [UI] JButton "Multi-D Acq." clicked in MainFrame.
+2017-07-10T17:29:28.485946 tid10908 [IFO,App] [UI] GlyphButton clicked in AcqControlDlg.
+2017-07-10T17:29:28.661956 tid10908 [IFO,App] [UI] GlyphButton clicked in AcqControlDlg.
+2017-07-10T17:29:29.028977 tid10908 [IFO,App] [UI] GlyphButton clicked in AcqControlDlg.
+2017-07-10T17:29:30.453058 tid10908 [IFO,App] [UI] GlyphButton clicked in AcqControlDlg.
+2017-07-10T17:29:30.813079 tid10908 [IFO,App] [UI] GlyphButton clicked in AcqControlDlg.
+2017-07-10T17:29:35.990375 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getExposure)
+2017-07-10T17:29:35.992375 tid10908 [dbg,App] [AE] --> 10.0
+2017-07-10T17:29:35.999376 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:29:36.001376 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.004376 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.005376 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.009376 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.010376 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.013376 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.013376 tid10908 [dbg,App] [AE] -->
+2017-07-10T17:29:36.017377 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfComponents)
+2017-07-10T17:29:36.018377 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.020377 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:29:36.020377 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.023377 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:29:36.027377 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.029377 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageWidth)
+2017-07-10T17:29:36.030377 tid10908 [dbg,App] [AE] --> 512
+2017-07-10T17:29:36.032378 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageHeight)
+2017-07-10T17:29:36.032378 tid10908 [dbg,App] [AE] --> 512
+2017-07-10T17:29:36.044378 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getROI [0] [0] [0] [0])
+2017-07-10T17:29:36.045378 tid10908 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.047378 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getPixelSizeUm)
+2017-07-10T17:29:36.048378 tid10908 [dbg,App] [AE] --> 0.0
+2017-07-10T17:29:36.052379 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageBitDepth)
+2017-07-10T17:29:36.053379 tid10908 [dbg,App] [AE] --> 8
+2017-07-10T17:29:36.103382 tid11424 [dbg,App] [AE] Starting MD Acquisition:
+                                    [       ] {:autofocus-skip 0,
+                                    [       ]  :camera-timeout 20000,
+                                    [       ]  :channel-group "",
+                                    [       ]  :channels [],
+                                    [       ]  :comment "",
+                                    [       ]  :custom-intervals-ms [],
+                                    [       ]  :default-exposure 10.0,
+                                    [       ]  :frames (0 1),
+                                    [       ]  :interval-ms 100.0,
+                                    [       ]  :keep-shutter-open-channels false,
+                                    [       ]  :keep-shutter-open-slices true,
+                                    [       ]  :numFrames 2,
+                                    [       ]  :positions [],
+                                    [       ]  :prefix nil,
+                                    [       ]  :relative-slices true,
+                                    [       ]  :root nil,
+                                    [       ]  :save false,
+                                    [       ]  :shouldDisplayImages true,
+                                    [       ]  :slices [0.0 10.0 20.0 30.0 40.0 50.0 60.0 70.0 80.0 90.0 100.0],
+                                    [       ]  :slices-first false,
+                                    [       ]  :time-first false,
+                                    [       ]  :use-autofocus false,
+                                    [       ]  :use-position-list false,
+                                    [       ]  :useCustomIntervals false,
+                                    [       ]  :zReference 0.0}
+2017-07-10T17:29:36.109382 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getFocusDevice)
+2017-07-10T17:29:36.109382 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.110382 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getXYStageDevice)
+2017-07-10T17:29:36.110382 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.112382 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getExposure)
+2017-07-10T17:29:36.113382 tid11424 [dbg,App] [AE] --> 10.0
+2017-07-10T17:29:36.114382 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.115382 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.116382 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterOpen)
+2017-07-10T17:29:36.117382 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.119383 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.119383 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.120383 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.121383 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@10989c3>
+2017-07-10T17:29:36.126383 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc isContinuousFocusEnabled)
+2017-07-10T17:29:36.127383 tid11424 [dbg,App] [AE] --> false
+2017-07-10T17:29:36.128383 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageWidth)
+2017-07-10T17:29:36.129383 tid11424 [dbg,App] [AE] --> 512
+2017-07-10T17:29:36.130383 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageHeight)
+2017-07-10T17:29:36.131383 tid11424 [dbg,App] [AE] --> 512
+2017-07-10T17:29:36.132383 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.133383 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.138384 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getProperty "DCam" "Binning")
+2017-07-10T17:29:36.140384 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.140384 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.140384 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.142384 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageBitDepth)
+2017-07-10T17:29:36.142384 tid11424 [dbg,App] [AE] --> 8
+2017-07-10T17:29:36.144384 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getPixelSizeUm)
+2017-07-10T17:29:36.144384 tid11424 [dbg,App] [AE] --> 0.0
+2017-07-10T17:29:36.146384 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfComponents)
+2017-07-10T17:29:36.146384 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.148384 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:29:36.148384 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.149384 tid10908 [IFO,App] [UI] JButton "Acquire!" clicked in AcqControlDlg.
+2017-07-10T17:29:36.189387 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 0.0,
+                                    [       ]  :new-position true,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 0,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap,
+                                    [       ]  :wait-time-ms 0}
+2017-07-10T17:29:36.189387 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.190387 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.191387 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.193387 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.193387 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.193387 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.194387 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.196387 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setExposure 10.0)
+2017-07-10T17:29:36.196387 tid11424 [dbg,Core] Will set camera DCam exposure to 10.000 ms
+2017-07-10T17:29:36.196387 tid11424 [dbg,Core] Did set camera DCam exposure to 10.000 ms
+2017-07-10T17:29:36.197387 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.197387 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.197387 tid11424 [dbg,App] [AE] acq-sleep
+2017-07-10T17:29:36.197387 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.197387 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.199387 tid11424 [dbg,App] [AE] pending devices:  #{"DCam"}
+2017-07-10T17:29:36.201387 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.201387 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.201387 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.202387 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.202387 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.203387 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.204387 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.209388 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.209388 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@72e91b>
+2017-07-10T17:29:36.214388 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.214388 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.216388 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.216388 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.217388 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.218388 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.218388 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.219388 tid11424 [dbg,App] [AE] pending devices:  #{}
+2017-07-10T17:29:36.220388 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.220388 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.223388 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:29:36.223388 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.225389 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.225389 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.227389 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.227389 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.227389 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.228389 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.229389 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.229389 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.231389 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.231389 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.241390 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.241390 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.243390 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.243390 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.244390 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.244390 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.245390 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.245390 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.247390 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.247390 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.251390 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.251390 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.255390 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.256390 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@15d94f>
+2017-07-10T17:29:36.262391 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.263391 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.273391 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 10.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 1,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.273391 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.275391 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.275391 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.275391 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.275391 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.275391 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.279392 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.281392 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.281392 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.281392 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.282392 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.282392 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.283392 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.283392 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.285392 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.285392 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1e21ee9>
+2017-07-10T17:29:36.288392 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.288392 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.290392 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.290392 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.290392 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.292392 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.292392 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.293392 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.294393 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.294393 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.295393 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.296393 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.297393 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.297393 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.297393 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.298393 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.302393 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.302393 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.304393 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.304393 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.314394 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.314394 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.316394 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.316394 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.316394 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.316394 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.318394 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.319394 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.320394 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.320394 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.322394 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.322394 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.324394 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.325394 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1adc902>
+2017-07-10T17:29:36.328394 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.328394 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.341395 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 20.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 2,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.342395 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.343395 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.343395 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.343395 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.343395 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.343395 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.345395 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.347396 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.347396 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.347396 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.347396 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.347396 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.349396 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.349396 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.350396 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.351396 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1bb33a2>
+2017-07-10T17:29:36.354396 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.354396 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.355396 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.355396 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.356396 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.357396 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.357396 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.358396 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.406399 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.406399 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.407399 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.407399 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.409399 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.409399 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.409399 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.409399 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.410399 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.410399 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.412399 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.412399 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.422400 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.422400 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.423400 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.423400 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.424400 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.424400 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.425400 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.425400 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.427400 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.428400 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.429400 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.430400 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.431400 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.432400 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@526baf>
+2017-07-10T17:29:36.439401 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.439401 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.449401 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 30.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 3,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.449401 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.450401 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.450401 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.450401 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.451402 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.451402 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.453402 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.454402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.454402 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.454402 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.455402 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.455402 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.456402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.456402 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.458402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.458402 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1f8b4cd>
+2017-07-10T17:29:36.461402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.461402 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.462402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.462402 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.463402 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.464402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.464402 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.465402 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.466402 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.466402 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.471403 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.471403 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.473403 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.473403 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.473403 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.473403 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.474403 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.475403 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.476403 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.476403 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.486404 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.486404 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.487404 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.487404 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.488404 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.488404 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.489404 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.489404 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.490404 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.491404 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.492404 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.492404 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.494404 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.495404 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1ba972c>
+2017-07-10T17:29:36.499404 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.499404 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.513405 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 40.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 4,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.513405 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.515405 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.515405 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.515405 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.515405 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.515405 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.517405 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.518405 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.518405 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.518405 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.518405 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.518405 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.520405 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.520405 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.521406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.522406 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@710ba6>
+2017-07-10T17:29:36.525406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.525406 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.526406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.526406 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.527406 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.528406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.528406 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.529406 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.530406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.530406 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.531406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.531406 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.533406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.533406 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.533406 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.536406 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.537406 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.537406 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.539407 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.539407 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.549407 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.549407 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.550407 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.550407 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.551407 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.551407 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.552407 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.552407 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.553407 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.554407 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.555407 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.555407 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.557408 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.558408 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1f8f757>
+2017-07-10T17:29:36.561408 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.561408 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.570408 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 50.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 5,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.570408 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.571408 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.571408 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.572408 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.572408 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.572408 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.575409 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.577409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.577409 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.577409 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.577409 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.577409 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.578409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.579409 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.580409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.581409 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1876568>
+2017-07-10T17:29:36.583409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.583409 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.585409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.585409 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.585409 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.586409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.586409 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.587409 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.588409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.588409 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.589409 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.590409 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.591410 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.591410 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.591410 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.592410 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.593410 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.593410 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.594410 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.594410 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.604410 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.604410 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.605410 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.605410 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.606410 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.606410 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.607410 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.607410 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.608411 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.611411 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.612411 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.612411 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.614411 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.614411 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1507dd0>
+2017-07-10T17:29:36.618411 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.618411 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.626412 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 60.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 6,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.626412 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.628412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.628412 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.628412 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.628412 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.628412 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.629412 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.631412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.631412 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.631412 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.631412 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.631412 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.632412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.632412 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.634412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.634412 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1f1d449>
+2017-07-10T17:29:36.639412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.639412 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.640412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.640412 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.641412 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.642412 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.642412 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.643413 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.644413 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.644413 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.645413 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.645413 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.646413 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.646413 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.646413 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.647413 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.648413 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.648413 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.649413 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.649413 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.659413 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.659413 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.660413 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.660413 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.660413 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.660413 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.662414 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.662414 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.663414 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.664414 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.665414 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.665414 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.666414 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.667414 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@efc4e2>
+2017-07-10T17:29:36.670414 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.671414 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.681415 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 70.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 7,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.681415 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.683415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.683415 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.683415 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.683415 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.683415 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.684415 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.686415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.686415 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.686415 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.686415 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.686415 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.688415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.688415 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.689415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.690415 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@2eebd3>
+2017-07-10T17:29:36.692415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.692415 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.693415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.694415 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.694415 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.695415 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.695415 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.696416 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.697416 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.697416 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.698416 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.698416 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.700416 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.700416 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.700416 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.700416 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.703416 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.703416 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.704416 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.704416 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.714417 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.714417 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.715417 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.715417 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.716417 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.716417 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.717417 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.717417 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.718417 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.719417 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.720417 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.720417 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.721417 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.722417 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@f9bbf7>
+2017-07-10T17:29:36.725417 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.725417 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.734418 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 80.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 8,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.734418 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.737418 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.737418 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.737418 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.737418 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.737418 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.738418 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.740418 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.740418 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.740418 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.740418 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.740418 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.741418 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.742418 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.743418 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.743418 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@95a151>
+2017-07-10T17:29:36.746418 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.746418 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.747418 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.747418 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.747418 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.749419 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.749419 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.749419 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.750419 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.750419 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.752419 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.752419 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.753419 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.753419 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.753419 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.753419 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.754419 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.754419 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.756419 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.756419 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.766420 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.766420 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.767420 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.767420 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.767420 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.767420 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.768420 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.769420 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.770420 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.770420 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.772420 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.772420 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.773420 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.776420 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1033789>
+2017-07-10T17:29:36.779420 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.779420 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.787421 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 0,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 90.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 9,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.787421 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.789421 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.789421 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.789421 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.789421 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.789421 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.790421 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.791421 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.791421 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.791421 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.792421 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.792421 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.793421 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.793421 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.794421 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.795421 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@17e1546>
+2017-07-10T17:29:36.797421 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.797421 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.798421 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.798421 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.800421 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.802422 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.802422 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.802422 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.803422 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.803422 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.805422 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.805422 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.806422 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.806422 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.806422 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.806422 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.807422 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.807422 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.809422 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.809422 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.819423 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.819423 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.820423 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.820423 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.820423 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.820423 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.822423 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.822423 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.823423 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.823423 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.825423 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.825423 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.826423 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.827423 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1173af3>
+2017-07-10T17:29:36.830423 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.830423 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.841424 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter true,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 0,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 100.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 10,
+                                    [       ]  :frame 0,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.841424 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.842424 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.842424 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.842424 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.842424 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.842424 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.843424 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.845424 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.845424 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.845424 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.845424 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.845424 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.846424 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.846424 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.847424 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.848424 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@19938c3>
+2017-07-10T17:29:36.850424 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.850424 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.852424 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.852424 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.852424 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.853425 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.853425 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.854425 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.855425 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.855425 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.856425 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.856425 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.858425 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.858425 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.858425 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.858425 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.859425 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.859425 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.860425 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.860425 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.870425 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.870425 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.871426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.871426 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.874426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen false)
+2017-07-10T17:29:36.875426 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.876426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.876426 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.876426 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.876426 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.877426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.878426 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.879426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.879426 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.880426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.880426 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.882426 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.882426 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@3e6217>
+2017-07-10T17:29:36.886426 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.886426 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.895427 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 0.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 0,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap,
+                                    [       ]  :wait-time-ms 100.0}
+2017-07-10T17:29:36.895427 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.898427 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.898427 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.898427 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.898427 tid11424 [dbg,App] [AE] acq-sleep
+2017-07-10T17:29:36.898427 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.898427 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.899427 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.901427 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.901427 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.901427 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.901427 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.901427 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.902427 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.902427 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.903427 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.904427 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@19ad7d7>
+2017-07-10T17:29:36.906428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.906428 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.908428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.908428 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.908428 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.909428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.909428 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.910428 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.911428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.911428 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.912428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:29:36.912428 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.913428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.913428 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.915428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.915428 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.915428 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.915428 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.916428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.916428 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.917428 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.917428 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.927429 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.927429 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.928429 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.928429 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.928429 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.928429 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.929429 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.930429 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.931429 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.931429 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.932429 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.932429 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.936429 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.936429 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@12ccaff>
+2017-07-10T17:29:36.940429 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.940429 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:36.949430 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 10.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 1,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:36.949430 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:36.950430 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.950430 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.950430 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:36.951430 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:36.951430 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:36.952430 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:36.953430 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.953430 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.953430 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.953430 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.953430 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:36.955430 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.955430 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.956430 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:36.956430 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1fe36e7>
+2017-07-10T17:29:36.961431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:36.961431 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:36.963431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:36.963431 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:36.963431 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.964431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.964431 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.965431 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:36.966431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:36.966431 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.967431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.967431 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.969431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:36.969431 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:36.969431 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:36.969431 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.970431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:36.970431 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:36.971431 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:36.971431 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:36.981432 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:36.981432 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.982432 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:36.982432 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:36.982432 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:36.982432 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:36.983432 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.984432 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.985432 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:36.985432 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:36.986432 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:36.987432 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:36.988432 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:36.989432 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@ff54d9>
+2017-07-10T17:29:36.992432 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:36.992432 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.002433 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 20.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 2,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.002433 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.003433 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.003433 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.003433 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.003433 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.003433 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.004433 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.006433 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.006433 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.006433 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.006433 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.006433 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.007433 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.008433 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.009433 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.009433 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@aa85c6>
+2017-07-10T17:29:37.011434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.012434 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.013434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.013434 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.013434 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.014434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.014434 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.015434 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.016434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.016434 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.017434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.017434 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.019434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.019434 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.019434 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.019434 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.022434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.022434 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.023434 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.023434 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.033435 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.033435 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.034435 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.034435 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.034435 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.034435 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.035435 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.036435 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.037435 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.037435 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.038435 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.038435 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.040435 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.041435 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1a59b54>
+2017-07-10T17:29:37.044435 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.044435 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.052436 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 30.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 3,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.052436 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.054436 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.056436 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.056436 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.056436 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.056436 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.057436 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.058436 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.058436 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.058436 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.059436 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.059436 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.060436 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.060436 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.061436 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.062436 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1533583>
+2017-07-10T17:29:37.064437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.064437 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.065437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.065437 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.066437 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.067437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.067437 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.067437 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.068437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.069437 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.070437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.070437 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.071437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.071437 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.071437 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.071437 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.072437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.073437 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.074437 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.074437 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.084438 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.084438 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.085438 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.085438 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.085438 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.085438 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.086438 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.087438 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.088438 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.088438 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.089438 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.090438 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.091438 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.092438 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@176fa38>
+2017-07-10T17:29:37.097438 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.097438 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.105439 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 40.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 4,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.105439 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.106439 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.106439 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.107439 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.107439 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.107439 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.108439 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.109439 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.109439 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.109439 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.109439 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.109439 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.111439 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.111439 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.112439 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.112439 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@18749b6>
+2017-07-10T17:29:37.114439 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.115440 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.116440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.116440 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.118440 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.119440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.119440 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.120440 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.121440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.121440 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.122440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.122440 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.123440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.123440 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.123440 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.124440 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.125440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.125440 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.126440 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.126440 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.136441 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.136441 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.137441 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.137441 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.137441 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.137441 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.138441 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.139441 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.140441 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.140441 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.141441 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.141441 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.143441 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.144441 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@16b5a8e>
+2017-07-10T17:29:37.147441 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.147441 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.157442 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 50.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 5,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.157442 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.158442 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.158442 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.158442 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.158442 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.159442 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.160442 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.161442 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.161442 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.161442 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.161442 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.161442 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.162442 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.163442 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.164442 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.164442 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@3dfa2d>
+2017-07-10T17:29:37.166442 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.167442 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.168443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.168443 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.168443 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.169443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.169443 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.170443 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.171443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.171443 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.172443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.172443 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.173443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.173443 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.173443 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.174443 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.175443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.175443 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.176443 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.176443 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.186444 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.186444 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.189444 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.189444 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.189444 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.189444 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.190444 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.191444 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.192444 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.192444 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.193444 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.193444 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.195444 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.196444 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1a97a11>
+2017-07-10T17:29:37.199444 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.199444 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.207445 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 60.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 6,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.207445 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.208445 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.208445 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.208445 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.208445 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.208445 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.209445 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.213445 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.213445 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.213445 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.213445 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.213445 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.214445 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.214445 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.215445 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.216445 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1d2efd5>
+2017-07-10T17:29:37.218445 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.218445 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.219445 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.219445 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.220446 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.221446 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.221446 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.221446 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.222446 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.222446 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.224446 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.224446 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.225446 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.225446 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.225446 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.225446 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.226446 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.226446 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.227446 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.227446 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.237446 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.237446 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.238447 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.238447 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.238447 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.238447 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.239447 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.240447 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.241447 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.241447 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.242447 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.242447 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.244447 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.244447 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@6e5a08>
+2017-07-10T17:29:37.249447 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.249447 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.257448 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 70.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 7,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.257448 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.259448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.259448 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.259448 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.259448 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.259448 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.260448 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.261448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.261448 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.261448 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.261448 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.261448 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.263448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.263448 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.264448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.264448 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@b3a2c2>
+2017-07-10T17:29:37.267448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.267448 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.268448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.268448 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.268448 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.269448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.269448 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.270448 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.271448 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.273449 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.274449 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.274449 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.275449 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.276449 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.276449 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.276449 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.277449 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.277449 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.278449 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.278449 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.288449 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.288449 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.289449 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.289449 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.289449 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.289449 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.290450 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.291450 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.292450 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.292450 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.293450 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.293450 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.295450 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.295450 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@1e0e790>
+2017-07-10T17:29:37.298450 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.298450 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.308451 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 80.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 8,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.308451 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.309451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.309451 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.309451 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.309451 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.310451 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.311451 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.313451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.313451 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.313451 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.313451 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.313451 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.314451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.314451 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.316451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.317451 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1648e2e>
+2017-07-10T17:29:37.319451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.320451 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.321451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.321451 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.321451 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.322451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.322451 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.323451 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.324451 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.324451 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.325452 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.325452 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.326452 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.326452 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.326452 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.327452 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.328452 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.328452 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.329452 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.329452 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.339452 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.339452 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.340452 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.340452 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.340452 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.340452 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.341452 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.342452 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.343453 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.343453 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.346453 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.346453 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.348453 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.348453 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@5de7dc>
+2017-07-10T17:29:37.351453 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.351453 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.359453 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter false,
+                                    [       ]  :next-frame-index 1,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 90.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 9,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.359453 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.360454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.360454 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.360454 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.360454 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.360454 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.361454 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.363454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.363454 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.363454 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.363454 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.363454 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.364454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.364454 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.366454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.366454 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@d23d1>
+2017-07-10T17:29:37.370454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.370454 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.371454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.371454 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.371454 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.373454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.373454 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.373454 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.374454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.374454 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.375454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.375454 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.377454 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.377454 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.377454 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.377454 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.378455 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.378455 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.379455 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.379455 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.389455 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.389455 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.390455 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.390455 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.390455 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.390455 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.391455 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.392455 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.393455 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.393455 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.394455 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.394455 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.396456 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.396456 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@140657>
+2017-07-10T17:29:37.399456 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.399456 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.409456 tid11424 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                    [       ] {:close-shutter true,
+                                    [       ]  :next-frame-index nil,
+                                    [       ]  :frame-index 1,
+                                    [       ]  :position-index 0,
+                                    [       ]  :slice 100.0,
+                                    [       ]  :new-position false,
+                                    [       ]  :autofocus false,
+                                    [       ]  :channel-index 0,
+                                    [       ]  :slice-index 10,
+                                    [       ]  :frame 1,
+                                    [       ]  :exposure 10.0,
+                                    [       ]  :relative-z true,
+                                    [       ]  :task :snap}
+2017-07-10T17:29:37.409456 tid11424 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:29:37.410456 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.410456 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.410456 tid11424 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:29:37.410456 tid11424 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:29:37.410456 tid11424 [dbg,App] [AE] END set z position
+2017-07-10T17:29:37.411456 tid11424 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:29:37.412456 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.412456 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.412456 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.413457 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.413457 tid11424 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:29:37.414457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.414457 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.415457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.416457 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@a846a8>
+2017-07-10T17:29:37.417457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:29:37.418457 tid11424 [dbg,App] [AE] --> true
+2017-07-10T17:29:37.419457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:29:37.419457 tid11424 [dbg,Core] Autoshutter turned off
+2017-07-10T17:29:37.419457 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.420457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.420457 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.421457 tid11424 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:29:37.422457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.422457 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.423457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.423457 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.424457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.424457 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.424457 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.425457 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.426457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.426457 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.429457 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:29:37.429457 tid11424 [dbg,Core] Will snap image from current camera
+2017-07-10T17:29:37.439458 tid11424 [dbg,Core] Did snap image from current camera
+2017-07-10T17:29:37.439458 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.440458 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.440458 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.441458 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen false)
+2017-07-10T17:29:37.441458 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.443458 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.443458 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.443458 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.443458 tid11424 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:29:37.444458 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.444458 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.445458 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:29:37.446458 tid11424 [dbg,App] [AE] --> 1
+2017-07-10T17:29:37.447458 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:29:37.447458 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.448459 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:29:37.449459 tid11424 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@88723>
+2017-07-10T17:29:37.452459 tid11424 [dbg,App] [AE] END acquire
+2017-07-10T17:29:37.452459 tid11424 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:29:37.452459 tid11424 [dbg,App] [AE] cleanup
+2017-07-10T17:29:37.455459 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc isSequenceRunning)
+2017-07-10T17:29:37.455459 tid11424 [dbg,App] [AE] --> false
+2017-07-10T17:29:37.457459 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:29:37.458459 tid11424 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@5754ee>
+2017-07-10T17:29:37.464459 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:29:37.464459 tid11424 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:29:37.464459 tid11424 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:29:37.465460 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.467460 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setProperty "DCam" "Exposure" "10.0000")
+2017-07-10T17:29:37.467460 tid11424 [dbg,Core:dev:DCam] Will set property "Exposure" to "10.0000"
+2017-07-10T17:29:37.467460 tid11424 [dbg,Core:dev:DCam] Did set property "Exposure" to "10.0000"
+2017-07-10T17:29:37.467460 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.469460 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:29:37.469460 tid11424 [dbg,Core] Autoshutter turned on
+2017-07-10T17:29:37.469460 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.471460 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:29:37.471460 tid11424 [dbg,App] [AE] --> DCam
+2017-07-10T17:29:37.473460 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:29:37.473460 tid11424 [dbg,App] [AE] -->
+2017-07-10T17:29:37.474460 tid11424 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:29:37.474460 tid11424 [dbg,App] [AE] --> nil
+2017-07-10T17:29:37.475460 tid11424 [dbg,App] [AE] acquisition thread exiting
+2017-07-10T17:29:37.479460 tid4376 [IFO,App] 22 images stored in 1330 ms.
+2017-07-10T17:29:43.194787 tid10908 [IFO,App] [UI] ScrollbarAnimateIcon clicked in DefaultDisplayWindow.
+2017-07-10T17:29:45.234904 tid10908 [IFO,App] [UI] ScrollbarAnimateIcon clicked in DefaultDisplayWindow.
+2017-07-10T17:29:45.794936 tid10908 [IFO,App] [UI] ScrollbarAnimateIcon clicked in DefaultDisplayWindow.
+2017-07-10T17:29:46.562980 tid10908 [IFO,App] [UI] ScrollbarAnimateIcon clicked in DefaultDisplayWindow.
+2017-07-10T17:29:47.339024 tid10908 [IFO,App] [UI] ScrollbarAnimateIcon clicked in DefaultDisplayWindow.
+2017-07-10T17:29:48.267077 tid10908 [IFO,App] [UI] ScrollbarAnimateIcon clicked in DefaultDisplayWindow.
+2017-07-10T17:29:50.819223 tid10908 [IFO,App] [UI] JButton "FPS: 10.0" clicked in DefaultDisplayWindow.
+2017-07-10T17:29:56.186530 tid10908 [IFO,App] [UI] XPComboBoxButton clicked in AcqControlDlg.
+2017-07-10T17:29:57.234590 tid10908 [IFO,App] [UI]  "ComboBox.list" set to "Time, Slice" in AcqControlDlg.
+2017-07-10T17:30:07.174159 tid10908 [IFO,App] [UI] CheckBoxPanel clicked in AcqControlDlg.
+2017-07-10T17:30:07.174159 tid10908 [IFO,App] [UI] JCheckBox "Time Points" toggled off in AcqControlDlg.
+2017-07-10T17:30:07.534179 tid10908 [IFO,App] [UI] CheckBoxPanel clicked in AcqControlDlg.
+2017-07-10T17:30:07.534179 tid10908 [IFO,App] [UI] JCheckBox "Time Points" toggled on in AcqControlDlg.
+2017-07-10T17:30:08.357226 tid10908 [IFO,App] [UI] CheckBoxPanel clicked in AcqControlDlg.
+2017-07-10T17:30:08.357226 tid10908 [IFO,App] [UI] JCheckBox "Z-Stacks (Slices)" toggled off in AcqControlDlg.
+2017-07-10T17:30:11.146386 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getExposure)
+2017-07-10T17:30:11.146386 tid10908 [dbg,App] [AE] --> 10.0
+2017-07-10T17:30:11.149386 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:11.149386 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.151386 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:11.152386 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.153386 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:11.154386 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.155386 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:30:11.155386 tid10908 [dbg,App] [AE] -->
+2017-07-10T17:30:11.157387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfComponents)
+2017-07-10T17:30:11.158387 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.159387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:11.159387 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.160387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:11.161387 tid10908 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.162387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageWidth)
+2017-07-10T17:30:11.162387 tid10908 [dbg,App] [AE] --> 512
+2017-07-10T17:30:11.163387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageHeight)
+2017-07-10T17:30:11.164387 tid10908 [dbg,App] [AE] --> 512
+2017-07-10T17:30:11.168387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getROI [0] [0] [0] [0])
+2017-07-10T17:30:11.168387 tid10908 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.169387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getPixelSizeUm)
+2017-07-10T17:30:11.170387 tid10908 [dbg,App] [AE] --> 0.0
+2017-07-10T17:30:11.171387 tid10908 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageBitDepth)
+2017-07-10T17:30:11.171387 tid10908 [dbg,App] [AE] --> 8
+2017-07-10T17:30:11.176388 tid10908 [IFO,App] [UI] JButton "Acquire!" clicked in AcqControlDlg.
+2017-07-10T17:30:11.191389 tid9272 [dbg,App] [AE] Starting MD Acquisition:
+                                   [       ] {:autofocus-skip 0,
+                                   [       ]  :camera-timeout 20000,
+                                   [       ]  :channel-group "",
+                                   [       ]  :channels [],
+                                   [       ]  :comment "",
+                                   [       ]  :custom-intervals-ms [],
+                                   [       ]  :default-exposure 10.0,
+                                   [       ]  :frames (0 1),
+                                   [       ]  :interval-ms 100.0,
+                                   [       ]  :keep-shutter-open-channels false,
+                                   [       ]  :keep-shutter-open-slices true,
+                                   [       ]  :numFrames 2,
+                                   [       ]  :positions [],
+                                   [       ]  :prefix nil,
+                                   [       ]  :relative-slices true,
+                                   [       ]  :root nil,
+                                   [       ]  :save false,
+                                   [       ]  :shouldDisplayImages true,
+                                   [       ]  :slices [],
+                                   [       ]  :slices-first false,
+                                   [       ]  :time-first false,
+                                   [       ]  :use-autofocus false,
+                                   [       ]  :use-position-list false,
+                                   [       ]  :useCustomIntervals false,
+                                   [       ]  :zReference 0.0}
+2017-07-10T17:30:11.192389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getFocusDevice)
+2017-07-10T17:30:11.192389 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.194389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getXYStageDevice)
+2017-07-10T17:30:11.194389 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.195389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getExposure)
+2017-07-10T17:30:11.195389 tid9272 [dbg,App] [AE] --> 10.0
+2017-07-10T17:30:11.196389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:11.197389 tid9272 [dbg,App] [AE] --> true
+2017-07-10T17:30:11.198389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterOpen)
+2017-07-10T17:30:11.198389 tid9272 [dbg,App] [AE] --> true
+2017-07-10T17:30:11.199389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.199389 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.200389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:11.201389 tid9272 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@947dcf>
+2017-07-10T17:30:11.203389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc isContinuousFocusEnabled)
+2017-07-10T17:30:11.203389 tid9272 [dbg,App] [AE] --> false
+2017-07-10T17:30:11.204389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageWidth)
+2017-07-10T17:30:11.205389 tid9272 [dbg,App] [AE] --> 512
+2017-07-10T17:30:11.206389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageHeight)
+2017-07-10T17:30:11.206389 tid9272 [dbg,App] [AE] --> 512
+2017-07-10T17:30:11.207389 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.207389 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.212390 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getProperty "DCam" "Binning")
+2017-07-10T17:30:11.213390 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.213390 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.213390 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.214390 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageBitDepth)
+2017-07-10T17:30:11.215390 tid9272 [dbg,App] [AE] --> 8
+2017-07-10T17:30:11.216390 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getPixelSizeUm)
+2017-07-10T17:30:11.216390 tid9272 [dbg,App] [AE] --> 0.0
+2017-07-10T17:30:11.217390 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfComponents)
+2017-07-10T17:30:11.218390 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.219390 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:11.219390 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.229391 tid9272 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                   [       ] {:close-shutter true,
+                                   [       ]  :next-frame-index 1,
+                                   [       ]  :frame-index 0,
+                                   [       ]  :position-index 0,
+                                   [       ]  :new-position true,
+                                   [       ]  :autofocus false,
+                                   [       ]  :channel-index 0,
+                                   [       ]  :slice-index 0,
+                                   [       ]  :frame 0,
+                                   [       ]  :exposure 10.0,
+                                   [       ]  :relative-z true,
+                                   [       ]  :task :snap,
+                                   [       ]  :wait-time-ms 0}
+2017-07-10T17:30:11.229391 tid9272 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:30:11.230391 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.230391 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.231391 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:11.232391 tid9272 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:11.232391 tid9272 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:11.232391 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.233391 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setExposure 10.0)
+2017-07-10T17:30:11.233391 tid9272 [dbg,Core] Will set camera DCam exposure to 10.000 ms
+2017-07-10T17:30:11.233391 tid9272 [dbg,Core] Did set camera DCam exposure to 10.000 ms
+2017-07-10T17:30:11.234391 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.234391 tid9272 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:30:11.234391 tid9272 [dbg,App] [AE] acq-sleep
+2017-07-10T17:30:11.234391 tid9272 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:30:11.234391 tid9272 [dbg,App] [AE] END set z position
+2017-07-10T17:30:11.235391 tid9272 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:30:11.238391 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:11.238391 tid9272 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:11.238391 tid9272 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:11.239391 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.239391 tid9272 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:30:11.241391 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:11.241391 tid9272 [dbg,App] [AE] --> true
+2017-07-10T17:30:11.243392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:11.244392 tid9272 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@13bd16d>
+2017-07-10T17:30:11.249392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:11.250392 tid9272 [dbg,App] [AE] --> true
+2017-07-10T17:30:11.251392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:30:11.251392 tid9272 [dbg,Core] Autoshutter turned off
+2017-07-10T17:30:11.251392 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.253392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.253392 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.253392 tid9272 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:30:11.255392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.255392 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.256392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:30:11.256392 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.257392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.257392 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.259392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:11.259392 tid9272 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:11.259392 tid9272 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:11.259392 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.260392 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.260392 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.262393 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:30:11.262393 tid9272 [dbg,Core] Will snap image from current camera
+2017-07-10T17:30:11.272393 tid9272 [dbg,Core] Did snap image from current camera
+2017-07-10T17:30:11.272393 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.273393 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.273393 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.274393 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen false)
+2017-07-10T17:30:11.275393 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.276393 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:30:11.276393 tid9272 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:11.276393 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.276393 tid9272 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:30:11.277393 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:11.278394 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.279394 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:11.279394 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.280394 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:30:11.281394 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.282394 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:30:11.283394 tid9272 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@b2d5c9>
+2017-07-10T17:30:11.288394 tid9272 [dbg,App] [AE] END acquire
+2017-07-10T17:30:11.289394 tid9272 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:30:11.300395 tid9272 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                   [       ] {:close-shutter true,
+                                   [       ]  :next-frame-index nil,
+                                   [       ]  :frame-index 1,
+                                   [       ]  :position-index 0,
+                                   [       ]  :new-position false,
+                                   [       ]  :autofocus false,
+                                   [       ]  :channel-index 0,
+                                   [       ]  :slice-index 0,
+                                   [       ]  :frame 1,
+                                   [       ]  :exposure 10.0,
+                                   [       ]  :relative-z true,
+                                   [       ]  :task :snap,
+                                   [       ]  :wait-time-ms 100.0}
+2017-07-10T17:30:11.300395 tid9272 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:30:11.301395 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.301395 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.301395 tid9272 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:30:11.301395 tid9272 [dbg,App] [AE] acq-sleep
+2017-07-10T17:30:11.336397 tid9272 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:30:11.336397 tid9272 [dbg,App] [AE] END set z position
+2017-07-10T17:30:11.337397 tid9272 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:30:11.339397 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:11.339397 tid9272 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:11.339397 tid9272 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:11.340397 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.340397 tid9272 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:30:11.341397 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:11.341397 tid9272 [dbg,App] [AE] --> true
+2017-07-10T17:30:11.343397 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:11.344397 tid9272 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1e4b88d>
+2017-07-10T17:30:11.349398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:11.350398 tid9272 [dbg,App] [AE] --> true
+2017-07-10T17:30:11.352398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:30:11.352398 tid9272 [dbg,Core] Autoshutter turned off
+2017-07-10T17:30:11.352398 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.353398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.353398 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.354398 tid9272 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:30:11.355398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.355398 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.357398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:30:11.357398 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.359398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.359398 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.360398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:11.360398 tid9272 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:11.360398 tid9272 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:11.361398 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.362398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.362398 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.363398 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:30:11.363398 tid9272 [dbg,Core] Will snap image from current camera
+2017-07-10T17:30:11.373399 tid9272 [dbg,Core] Did snap image from current camera
+2017-07-10T17:30:11.373399 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.374399 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.374399 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.376399 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen false)
+2017-07-10T17:30:11.376399 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.378399 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:30:11.378399 tid9272 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:11.378399 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.378399 tid9272 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:30:11.379399 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:11.380399 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.382399 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:11.382399 tid9272 [dbg,App] [AE] --> 1
+2017-07-10T17:30:11.384400 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:30:11.384400 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.388400 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:30:11.389400 tid9272 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@114da5b>
+2017-07-10T17:30:11.392400 tid9272 [dbg,App] [AE] END acquire
+2017-07-10T17:30:11.392400 tid9272 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:30:11.392400 tid9272 [dbg,App] [AE] cleanup
+2017-07-10T17:30:11.393400 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc isSequenceRunning)
+2017-07-10T17:30:11.393400 tid9272 [dbg,App] [AE] --> false
+2017-07-10T17:30:11.395400 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:11.396400 tid9272 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@363ba1>
+2017-07-10T17:30:11.399400 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:11.399400 tid9272 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:11.399400 tid9272 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:11.399400 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.402401 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setProperty "DCam" "Exposure" "10.0000")
+2017-07-10T17:30:11.402401 tid9272 [dbg,Core:dev:DCam] Will set property "Exposure" to "10.0000"
+2017-07-10T17:30:11.402401 tid9272 [dbg,Core:dev:DCam] Did set property "Exposure" to "10.0000"
+2017-07-10T17:30:11.402401 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.404401 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:30:11.404401 tid9272 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:11.404401 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.405401 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:11.405401 tid9272 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:11.406401 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:11.406401 tid9272 [dbg,App] [AE] -->
+2017-07-10T17:30:11.408401 tid9272 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:30:11.408401 tid9272 [dbg,App] [AE] --> nil
+2017-07-10T17:30:11.408401 tid9272 [dbg,App] [AE] acquisition thread exiting
+2017-07-10T17:30:11.427402 tid10652 [IFO,App] 2 images stored in 251 ms.
+2017-07-10T17:30:22.942061 tid10908 [dbg,App] [AE] stop requested!
+2017-07-10T17:30:23.048067 tid10908 [dbg,App] [AE] state:
+                                    [       ] {:finished true,
+                                    [       ]  :last-image-time 178,
+                                    [       ]  :display nil,
+                                    [       ]  :position-list nil,
+                                    [       ]  :init-system-state
+                                    [       ]  {["RCM" "Laser off (not yet implemented"] "0.0000",
+                                    [       ]   ["DCam" "TestProperty1"] "0.0000",
+                                    [       ]   ["RCM" "Amplitude x"] "2.0000",
+                                    [       ]   ["Core" "AutoShutter"] "1",
+                                    [       ]   ["RCM" "Phase rotation X"] "0",
+                                    [       ]   ["DCam" "TestProperty2"] "0.0000",
+                                    [       ]   ["DCam" "Name"] "DCam",
+                                    [       ]   ["RCM" "Amplitude y"] "0.5000",
+                                    [       ]   ["RCM" "Phase rotation Y"] "1",
+                                    [       ]   ["DCam" "TestProperty3"] "0.0000",
+                                    [       ]   ["DCam" "TestProperty4"] "0.0000",
+                                    [       ]   ["DCam" "CCDTemperature RO"] "0.0000",
+                                    [       ]   ["DCam" "MaximumExposureMs"] "10000.0000",
+                                    [       ]   ["DCam" "TestProperty5"] "0.0000",
+                                    [       ]   ["RCM" "Start Sequence"] "0",
+                                    [       ]   ["DCam" "TriggerDevice"] "",
+                                    [       ]   ["RCM" "Sweep ratio x (M=1)"] "0.7500",
+                                    [       ]   ["DCam" "TestProperty6"] "0.0000",
+                                    [       ]   ["RCM" "Sweep ratio y (M=1)"] "0.7500",
+                                    [       ]   ["DCam" "HubID"] "",
+                                    [       ]   ["DCam" "CCDTemperature"] "0.0000",
+                                    [       ]   ["DCam" "CameraName"] "DemoCamera-MultiMode",
+                                    [       ]   ["RCM" "Ni DAQ card"] "Dev1",
+                                    [       ]   ["RCM" "Offset Re-scan x"] "0.0000",
+                                    [       ]   ["RCM" "Offset Scan x"] "0.0000",
+                                    [       ]   ["Core" "Camera"] "DCam",
+                                    [       ]   ["RCM" "Offset Re-scan y"] "0.0000",
+                                    [       ]   ["RCM" "Sweep factor"] "2",
+                                    [       ]   ["RCM" "Offset Scan y"] "0.0000",
+                                    [       ]   ["DCam" "RotateImages"] "0",
+                                    [       ]   ...},
+                                    [       ]  :init-z-position 0,
+                                    [       ]  :last-wake-time 2.9184255E7,
+                                    [       ]  :reference-z 0,
+                                    [       ]  :init-continuous-focus false,
+                                    [       ]  :init-shutter-state true,
+                                    [       ]  :shutter-states {"" true},
+                                    [       ]  :acq-thread #<Thread Thread[AcquisitionEngine2010 Thread (Clojure),6,]>,
+                                    [       ]  :default-xy-stage "",
+                                    [       ]  :start-time 29184116,
+                                    [       ]  :init-auto-shutter true,
+                                    [       ]  :default-z-drive "",
+                                    [       ]  :bit-depth 8,
+                                    [       ]  :cameras {"DCam" {:exposure 10.0}},
+                                    [       ]  :stop true,
+                                    [       ]  :live-mode-on false,
+                                    [       ]  :sleepy #<CountDownLatch java.util.concurrent.CountDownLatch@1b0a49e[Count = 0]>,
+                                    [       ]  :binning "1",
+                                    [       ]  :exposure {"DCam" 10.0},
+                                    [       ]  :pixel-size-um 0.0,
+                                    [       ]  :init-height 512,
+                                    [       ]  :summary-metadata
+                                    [       ]  #<JSONObject {"Slices":1,"SlicesFirst":false,"Interval_ms":100,"ProfileName":"Default user","Prefix":"","InitialPositionList":null,"z-step_um":0,"GridRow":0,"BitDepth":8,"Depth":1,"Channels":1,"Source":"Micro-Manager","ChColors":[-1],"MetadataVersion":"11.0.0","KeepShutterOpenChannels":false,"CustomIntervals_ms":[],"Height":512,"MicroManagerVersion":"2.0.0-beta3 20170607","GridColumn":0,"UUID":"1ab2552b-4fca-4763-8cf9-ff6829329344","PixelType":"GRAY8","Width":512,"Directory":"","Frames":2,"Comment":"","UserName":"Nikon-SIM","PixelSize_um":0,"StartTime":"2017-07-10 17:30:11 +0200","AxisOrder":["channel","z","position","time"],"ROI":[0,0,512,512],"ChNames":["Default"],"KeepShutterOpenSlices":true,"IJType":0,"ComputerName":"Nikon-SIM-HP","Positions":1,"CameraTimeout":20000,"ChannelGroup":"","TimeFirst":false}>,
+                                    [       ]  :pixel-type "GRAY8",
+                                    [       ]  :pause false,
+                                    [       ]  :init-width 512,
+                                    [       ]  :next-wake-time 2.9184256E7,
+                                    [       ]  ...}
+2017-07-10T17:30:23.048067 tid10908 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Waiting for device RCM...
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Finished waiting for device RCM
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Waiting for device DHub...
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Finished waiting for device DHub
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:23.048067 tid10908 [dbg,Core] Will unload all devices
+2017-07-10T17:30:23.048067 tid10908 [IFO,Core] Did unload all devices
+2017-07-10T17:30:23.048067 tid10908 [IFO,Core] System reset
+2017-07-10T17:30:23.050067 tid10908 [IFO,Core] Core session ended

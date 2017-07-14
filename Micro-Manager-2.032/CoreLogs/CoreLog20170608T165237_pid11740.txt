@@ -1,0 +1,825 @@
+2017-06-08T16:52:37.189166 tid13064 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170608T165237_pid11740.txt
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] User: Nikon-SIM
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] Host: Nikon-SIM-HP
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] MMCore version 8.5.0
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] Device API version 67, Module API version 10
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-06-08T16:52:37.189166 tid13064 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.6.0_31, 32-bit
+2017-06-08T16:52:37.192166 tid13064 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                    [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-06-08T16:52:37.292172 tid11472 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-06-08T16:52:37.420179 tid11472 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@1b09282
+2017-06-08T16:52:37.424180 tid11472 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@c10de0
+2017-06-08T16:52:37.425180 tid11472 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@c017e9
+2017-06-08T16:52:37.425180 tid11472 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@161f39e
+2017-06-08T16:52:37.426180 tid11472 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@18eb7b8
+2017-06-08T16:52:37.426180 tid11472 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@1c85444
+2017-06-08T16:52:37.426180 tid11472 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@8a1977
+2017-06-08T16:52:37.426180 tid11472 [IFO,App] Found plugin GaussianTrack_@8de972
+2017-06-08T16:52:37.427180 tid11472 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@3e5a91
+2017-06-08T16:52:37.427180 tid11472 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@ee6ad6
+2017-06-08T16:52:37.428180 tid11472 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@a826da
+2017-06-08T16:52:37.428180 tid11472 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@18ed77a
+2017-06-08T16:52:37.428180 tid11472 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@e496ab
+2017-06-08T16:52:37.428180 tid11472 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@15fc672
+2017-06-08T16:52:37.428180 tid11472 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@1991de1
+2017-06-08T16:52:37.429180 tid11472 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@8932e8
+2017-06-08T16:52:37.429180 tid11472 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@16d3536
+2017-06-08T16:52:37.430180 tid11472 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@c08593
+2017-06-08T16:52:37.430180 tid11472 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@181b3d4
+2017-06-08T16:52:37.430180 tid11472 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@42a818
+2017-06-08T16:52:37.430180 tid11472 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@29d65b
+2017-06-08T16:52:37.431180 tid11472 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@b8176d
+2017-06-08T16:52:37.431180 tid11472 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@2f1e75
+2017-06-08T16:52:37.431180 tid11472 [IFO,App] Found plugin org.micromanager.splitview.SplitView@178b64b
+2017-06-08T16:52:37.431180 tid11472 [IFO,App] Found plugin PMQI.AutoWB@83020
+2017-06-08T16:52:37.431180 tid11472 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@18f9b75
+2017-06-08T16:52:37.431180 tid11472 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-06-08T16:52:37.449181 tid11472 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@1aa0a15
+2017-06-08T16:52:37.453181 tid11472 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@1a3e41f
+2017-06-08T16:52:37.454181 tid11472 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@c5577c
+2017-06-08T16:52:37.456181 tid11472 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1c293f8
+2017-06-08T16:52:37.460182 tid11472 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@1d8f162
+2017-06-08T16:52:37.461182 tid11472 [IFO,App] Searching for plugins in class loader
+2017-06-08T16:52:37.581188 tid11472 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@5ed853
+2017-06-08T16:52:37.581188 tid11472 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@cc5436
+2017-06-08T16:52:37.581188 tid11472 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@bb6086
+2017-06-08T16:52:37.582189 tid11472 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@dafa2c
+2017-06-08T16:52:37.582189 tid11472 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@5e9db7
+2017-06-08T16:52:37.583189 tid11472 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@1c4795e
+2017-06-08T16:52:37.584189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@7616ad
+2017-06-08T16:52:37.584189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@caf083
+2017-06-08T16:52:37.584189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@16a9424
+2017-06-08T16:52:37.585189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@1b493c6
+2017-06-08T16:52:37.586189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@cfad31
+2017-06-08T16:52:37.587189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@19360e7
+2017-06-08T16:52:37.587189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@bf1f20
+2017-06-08T16:52:37.587189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@8ef455
+2017-06-08T16:52:37.588189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@9d5793
+2017-06-08T16:52:37.588189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@1e090ee
+2017-06-08T16:52:37.589189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@cd2192
+2017-06-08T16:52:37.589189 tid11472 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@1570c24
+2017-06-08T16:52:37.589189 tid11472 [IFO,App] Plugin loading took 297ms
+2017-06-08T16:52:37.589189 tid13064 [IFO,App] Finished waiting for plugins to load
+2017-06-08T16:52:40.989383 tid13064 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-08T16:52:40.989383 tid13064 [dbg,Core] Will unload all devices
+2017-06-08T16:52:40.989383 tid13064 [IFO,Core] Did unload all devices
+2017-06-08T16:52:40.989383 tid13064 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-08T16:52:40.990383 tid13064 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-08T16:52:40.990383 tid13064 [dbg,Core] Will load device RCM from RCM
+2017-06-08T16:52:41.060387 tid13064 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-06-08T16:52:41.060387 tid13064 [dbg,Core] Will load device DHub from DemoCamera
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Will load device DCam from DemoCamera
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Will initialize 3 devices
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Will initialize device RCM
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Did initialize device RCM
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Will initialize device DHub
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Did initialize device DHub
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Will initialize device DCam
+2017-06-08T16:52:41.061388 tid13064 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-06-08T16:52:41.061388 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Did initialize device DCam
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Default camera set to DCam
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Finished initializing 3 devices
+2017-06-08T16:52:41.061388 tid13064 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Will set Core property: Camera = DCam
+2017-06-08T16:52:41.061388 tid13064 [IFO,Core] Default camera set to DCam
+2017-06-08T16:52:41.061388 tid13064 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Did set Core property: Camera = DCam
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-06-08T16:52:41.061388 tid13064 [dbg,Core] Autoshutter turned on
+2017-06-08T16:52:41.061388 tid13064 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Waiting for device DHub...
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Finished waiting for device DHub
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Waiting for device DCam...
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Finished waiting for device DCam
+2017-06-08T16:52:41.062388 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:41.062388 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:41.062388 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:41.062388 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:41.076388 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:41.078389 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:41.078389 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:41.078389 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:41.083389 tid13064 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-08T16:52:41.091389 tid13064 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-08T16:52:41.850433 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:41.850433 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:41.858433 tid13064 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-06-08T16:52:41.858433 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T16:52:41.860433 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:41.860433 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:41.860433 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:41.860433 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:41.861433 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:41.861433 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:41.862433 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:41.863433 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:41.863433 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:41.863433 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:41.863433 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:52:41.865434 tid13064 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.
+2017-06-08T16:52:44.607590 tid13064 [IFO,App] [UI] JMenu "Config" clicked in MainFrame.
+2017-06-08T16:52:45.314631 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:45.315631 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:45.315631 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:45.315631 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:45.316631 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:45.318631 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:51.167966 tid13064 [IFO,App] Setting value 346 at row 1
+2017-06-08T16:52:51.167966 tid13064 [IFO,App] RCM/Frequency x:346
+2017-06-08T16:52:51.167966 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "346.0000"
+2017-06-08T16:52:51.167966 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:51.167966 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:51.167966 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:51.168966 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:51.169966 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:51.169966 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "346.0000"
+2017-06-08T16:52:51.169966 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:51.169966 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:51.169966 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:51.169966 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:51.170966 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:51.170966 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:51.170966 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:51.171966 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:51.171966 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:51.171966 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:51.175966 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:52:51.176966 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:51.176966 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:51.176966 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:51.177966 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:51.177966 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:51.177966 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:51.178966 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:51.179966 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:51.181966 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:52:52.887064 tid13064 [IFO,App] Setting value 346 at row 1
+2017-06-08T16:52:52.887064 tid13064 [IFO,App] RCM/Frequency x:346
+2017-06-08T16:52:52.888064 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "346.0000"
+2017-06-08T16:52:52.888064 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:52.888064 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:52.888064 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:52.889064 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:52.890064 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:52.890064 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "346.0000"
+2017-06-08T16:52:52.890064 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:52.890064 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:52.890064 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:52.890064 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:52.890064 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:52.890064 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:52.891064 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:52.892064 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:52.892064 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:52.892064 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:52.895064 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:52:52.896064 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:52.896064 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:52.896064 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:52.897064 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:52.897064 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:52.897064 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:52.898065 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:52.899065 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:52.901065 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:52:52.902065 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:52:53.967126 tid13064 [IFO,App] Setting value 337 at row 1
+2017-06-08T16:52:53.967126 tid13064 [IFO,App] RCM/Frequency x:337
+2017-06-08T16:52:53.967126 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "337.0000"
+2017-06-08T16:52:53.967126 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:53.968126 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:53.968126 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:53.968126 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:53.970126 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:53.970126 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "337.0000"
+2017-06-08T16:52:53.970126 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:53.970126 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:53.970126 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:53.970126 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:53.970126 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:53.970126 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:53.970126 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:53.971126 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:53.972126 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:53.972126 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:53.975126 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:52:53.975126 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:53.975126 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:53.975126 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:53.976126 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:53.976126 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:53.976126 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:53.977126 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:53.979126 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:53.980126 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:52:54.559160 tid13064 [IFO,App] Setting value 324 at row 1
+2017-06-08T16:52:54.559160 tid13064 [IFO,App] RCM/Frequency x:324
+2017-06-08T16:52:54.559160 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "324.0000"
+2017-06-08T16:52:54.559160 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:54.560160 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:54.560160 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:54.560160 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:54.561160 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:54.561160 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "324.0000"
+2017-06-08T16:52:54.561160 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:54.561160 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:54.561160 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:54.562160 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:54.562160 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:54.562160 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:54.562160 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:54.563160 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:54.563160 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:54.564160 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:54.566160 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:52:54.567160 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:54.567160 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:54.567160 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:54.568160 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:54.568160 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:54.568160 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:54.569160 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:54.570160 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:54.572160 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:52:55.143193 tid13064 [IFO,App] Setting value 339 at row 1
+2017-06-08T16:52:55.143193 tid13064 [IFO,App] RCM/Frequency x:339
+2017-06-08T16:52:55.143193 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "339.0000"
+2017-06-08T16:52:55.143193 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.144193 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:55.144193 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.145193 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:55.146193 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:55.146193 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "339.0000"
+2017-06-08T16:52:55.146193 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:55.146193 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:55.146193 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:55.146193 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.146193 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:55.146193 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.147193 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:55.147193 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:55.148193 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:55.148193 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:55.150193 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:52:55.151193 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:55.151193 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:55.151193 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.152193 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:55.152193 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.152193 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:55.153194 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:55.154194 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:55.156194 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:52:55.591219 tid13064 [IFO,App] Setting value 351 at row 1
+2017-06-08T16:52:55.591219 tid13064 [IFO,App] RCM/Frequency x:351
+2017-06-08T16:52:55.591219 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "351.0000"
+2017-06-08T16:52:55.591219 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.592219 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:55.592219 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.592219 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:55.593219 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:55.593219 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "351.0000"
+2017-06-08T16:52:55.593219 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:52:55.593219 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:52:55.593219 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:52:55.594219 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.594219 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:55.594219 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.594219 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:55.595219 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:55.595219 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:55.596219 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:52:55.598219 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:52:55.599219 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:52:55.599219 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:52:55.599219 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.599219 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:52:55.599219 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:52:55.600219 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:52:55.601219 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:52:55.602219 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:52:55.603219 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:18.671539 tid13064 [IFO,App] [UI] JMenu "Tools" clicked in MainFrame.
+2017-06-08T16:53:27.575048 tid13064 [IFO,App] Setting value 256 at row 0
+2017-06-08T16:53:27.575048 tid13064 [IFO,App] RCM/FoV:256
+2017-06-08T16:53:27.575048 tid13064 [dbg,Core:dev:RCM] Will set property "FoV" to "256"
+2017-06-08T16:53:27.575048 tid13064 [dbg,Core:dev:RCM] Did set property "FoV" to "256"
+2017-06-08T16:53:27.575048 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:27.575048 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:27.575048 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:27.575048 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.576048 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:27.576048 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.576048 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:27.577048 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:27.578048 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:27.578048 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:27.580048 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:27.580048 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:27.580048 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:27.581048 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.581048 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:27.581048 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.581048 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:27.582048 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:27.583048 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:27.584048 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:27.664053 tid13064 [IFO,App] Setting value 341 at row 1
+2017-06-08T16:53:27.664053 tid13064 [IFO,App] RCM/Frequency x:341
+2017-06-08T16:53:27.664053 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "341.0000"
+2017-06-08T16:53:27.664053 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.664053 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:27.664053 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.665053 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:27.666053 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:27.666053 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "341.0000"
+2017-06-08T16:53:27.666053 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:27.666053 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:27.666053 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:27.666053 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.666053 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:27.666053 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.667053 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:27.668053 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:27.668053 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:27.668053 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:27.670053 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:27.670053 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:27.670053 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:27.670053 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.671053 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:27.671053 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:27.671053 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:27.672054 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:27.673054 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:27.674054 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:27.675054 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:28.063076 tid13064 [IFO,App] Setting value 331 at row 1
+2017-06-08T16:53:28.063076 tid13064 [IFO,App] RCM/Frequency x:331
+2017-06-08T16:53:28.063076 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "331.0000"
+2017-06-08T16:53:28.063076 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.064076 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.064076 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.064076 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.065076 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.066076 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "331.0000"
+2017-06-08T16:53:28.066076 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:28.066076 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:28.066076 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:28.066076 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.066076 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.066076 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.066076 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.067076 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.067076 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:28.068076 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:28.069076 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:28.070076 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:28.070076 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:28.070076 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.071076 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.071076 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.071076 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.072076 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.073076 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:28.074077 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:28.074077 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:28.247086 tid13064 [IFO,App] Setting value 321 at row 1
+2017-06-08T16:53:28.247086 tid13064 [IFO,App] RCM/Frequency x:321
+2017-06-08T16:53:28.247086 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "321.0000"
+2017-06-08T16:53:28.247086 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.248086 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.248086 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.248086 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.250087 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.250087 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "321.0000"
+2017-06-08T16:53:28.250087 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:28.250087 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:28.250087 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:28.250087 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.250087 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.250087 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.250087 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.251087 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.251087 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:28.252087 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:28.253087 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:28.254087 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:28.254087 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:28.254087 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.255087 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.255087 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.255087 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.256087 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.257087 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:28.258087 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:28.258087 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:28.431097 tid13064 [IFO,App] Setting value 311 at row 1
+2017-06-08T16:53:28.431097 tid13064 [IFO,App] RCM/Frequency x:311
+2017-06-08T16:53:28.431097 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "311.0000"
+2017-06-08T16:53:28.431097 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.432097 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.432097 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.432097 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.433097 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.433097 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "311.0000"
+2017-06-08T16:53:28.433097 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:28.433097 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:28.433097 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:28.433097 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.434097 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.434097 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.434097 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.435097 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.435097 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:28.436097 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:28.437097 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:28.438097 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:28.438097 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:28.438097 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.439097 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:28.439097 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:28.439097 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:28.440097 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:28.441098 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:28.442098 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:28.442098 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:31.759287 tid13064 [IFO,App] Setting value 301 at row 1
+2017-06-08T16:53:31.759287 tid13064 [IFO,App] RCM/Frequency x:301
+2017-06-08T16:53:31.759287 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "301.0000"
+2017-06-08T16:53:31.759287 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.760287 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:31.760287 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.760287 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:31.762287 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:31.762287 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "301.0000"
+2017-06-08T16:53:31.762287 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:31.762287 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:31.762287 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:31.762287 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.762287 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:31.762287 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.762287 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:31.764288 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:31.764288 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:31.764288 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:31.766288 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:31.766288 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:31.766288 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:31.766288 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.767288 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:31.767288 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.767288 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:31.768288 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:31.769288 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:31.770288 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:31.771288 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:31.935297 tid13064 [IFO,App] Setting value 291 at row 1
+2017-06-08T16:53:31.935297 tid13064 [IFO,App] RCM/Frequency x:291
+2017-06-08T16:53:31.935297 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "291.0000"
+2017-06-08T16:53:31.935297 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.936297 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:31.936297 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.936297 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:31.937297 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:31.937297 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "291.0000"
+2017-06-08T16:53:31.937297 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:31.937297 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:31.937297 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:31.937297 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.938298 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:31.938298 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.938298 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:31.939298 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:31.939298 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:31.939298 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:31.941298 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:31.941298 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:31.941298 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:31.942298 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.942298 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:31.942298 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:31.943298 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:31.943298 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:31.944298 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:31.945298 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.127308 tid13064 [IFO,App] Setting value 281 at row 1
+2017-06-08T16:53:32.127308 tid13064 [IFO,App] RCM/Frequency x:281
+2017-06-08T16:53:32.127308 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "281.0000"
+2017-06-08T16:53:32.127308 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.128308 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.128308 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.128308 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.129308 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.129308 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "281.0000"
+2017-06-08T16:53:32.130309 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:32.130309 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:32.130309 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:32.130309 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.130309 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.130309 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.130309 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.131309 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.131309 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.132309 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:32.133309 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:32.134309 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:32.134309 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:32.134309 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.135309 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.135309 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.135309 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.136309 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.137309 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.137309 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.295318 tid13064 [IFO,App] Setting value 271 at row 1
+2017-06-08T16:53:32.295318 tid13064 [IFO,App] RCM/Frequency x:271
+2017-06-08T16:53:32.295318 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "271.0000"
+2017-06-08T16:53:32.295318 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.296318 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.296318 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.296318 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.297318 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.297318 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "271.0000"
+2017-06-08T16:53:32.297318 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:32.297318 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:32.297318 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:32.297318 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.298318 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.298318 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.298318 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.299318 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.299318 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.299318 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:32.301318 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:32.301318 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:32.301318 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:32.301318 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.302318 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.302318 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.302318 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.303318 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.304318 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.305319 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.307319 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:32.463328 tid13064 [IFO,App] Setting value 261 at row 1
+2017-06-08T16:53:32.463328 tid13064 [IFO,App] RCM/Frequency x:261
+2017-06-08T16:53:32.463328 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "261.0000"
+2017-06-08T16:53:32.463328 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.464328 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.464328 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.465328 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.466328 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.466328 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "261.0000"
+2017-06-08T16:53:32.466328 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:32.466328 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:32.466328 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:32.466328 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.466328 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.466328 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.467328 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.467328 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.468328 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.468328 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:32.469328 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:32.470328 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:32.470328 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:32.470328 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.470328 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.470328 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.471328 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.472328 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.472328 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.473328 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.623337 tid13064 [IFO,App] Setting value 251 at row 1
+2017-06-08T16:53:32.623337 tid13064 [IFO,App] RCM/Frequency x:251
+2017-06-08T16:53:32.623337 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "251.0000"
+2017-06-08T16:53:32.623337 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.624337 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.624337 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.625337 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.626337 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.626337 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "251.0000"
+2017-06-08T16:53:32.626337 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:32.626337 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:32.626337 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:32.626337 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.626337 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.626337 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.627337 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.627337 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.628337 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.628337 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:32.629337 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:32.630337 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:32.630337 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:32.630337 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.630337 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.630337 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.631337 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.631337 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.632337 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.633337 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.634337 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:32.815348 tid13064 [IFO,App] Setting value 241 at row 1
+2017-06-08T16:53:32.815348 tid13064 [IFO,App] RCM/Frequency x:241
+2017-06-08T16:53:32.815348 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "241.0000"
+2017-06-08T16:53:32.815348 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.816348 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.816348 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.816348 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.817348 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.817348 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "241.0000"
+2017-06-08T16:53:32.817348 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:32.817348 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:32.817348 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:32.817348 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.818348 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.818348 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.818348 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.819348 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.819348 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.819348 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:32.821348 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:32.821348 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:32.821348 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:32.821348 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.822348 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.822348 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.822348 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.823348 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.824348 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.825348 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.975357 tid13064 [IFO,App] Setting value 231 at row 1
+2017-06-08T16:53:32.975357 tid13064 [IFO,App] RCM/Frequency x:231
+2017-06-08T16:53:32.975357 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "231.0000"
+2017-06-08T16:53:32.975357 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.976357 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.976357 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.976357 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.977357 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.977357 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "231.0000"
+2017-06-08T16:53:32.977357 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:32.977357 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:32.977357 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:32.977357 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.978357 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.978357 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.978357 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.979357 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.979357 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.979357 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:32.982357 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:32.982357 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:32.982357 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:32.982357 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.983357 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:32.983357 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:32.983357 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:32.984357 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:32.985357 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:32.986357 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:32.986357 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:33.159367 tid13064 [IFO,App] Setting value 221 at row 1
+2017-06-08T16:53:33.159367 tid13064 [IFO,App] RCM/Frequency x:221
+2017-06-08T16:53:33.159367 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "221.0000"
+2017-06-08T16:53:33.159367 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.160367 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:33.160367 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.160367 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:33.161367 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:33.161367 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "221.0000"
+2017-06-08T16:53:33.161367 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:33.161367 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:33.161367 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:33.161367 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.162368 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:33.162368 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.162368 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:33.163368 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:33.163368 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:33.163368 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:33.165368 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:33.165368 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:33.165368 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:33.165368 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.166368 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:33.166368 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.166368 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:33.167368 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:33.168368 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:33.168368 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:33.169368 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:33.335377 tid13064 [IFO,App] Setting value 211 at row 1
+2017-06-08T16:53:33.335377 tid13064 [IFO,App] RCM/Frequency x:211
+2017-06-08T16:53:33.335377 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "211.0000"
+2017-06-08T16:53:33.335377 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.336377 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:33.336377 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.336377 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:33.337378 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:33.337378 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "211.0000"
+2017-06-08T16:53:33.337378 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:33.337378 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:33.337378 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:33.337378 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.338378 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:33.338378 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.338378 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:33.339378 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:33.339378 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:33.339378 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:33.341378 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:33.341378 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:33.341378 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:33.341378 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.342378 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:33.342378 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:33.342378 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:33.343378 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:33.344378 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:33.344378 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:33.345378 tid13064 [IFO,App] [UI] Table clicked in PropertyEditor.
+2017-06-08T16:53:36.767574 tid13064 [IFO,App] Setting value 122 at row 1
+2017-06-08T16:53:36.767574 tid13064 [IFO,App] RCM/Frequency x:122
+2017-06-08T16:53:36.767574 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "122.0000"
+2017-06-08T16:53:36.767574 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:36.768574 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:36.768574 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:36.768574 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:36.769574 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:36.769574 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "122.0000"
+2017-06-08T16:53:36.769574 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:36.769574 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:36.769574 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:36.769574 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:36.770574 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:36.770574 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:36.770574 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:36.771574 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:36.771574 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:36.771574 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:36.773574 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:36.773574 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:36.773574 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:36.773574 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:36.774574 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:36.774574 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:36.774574 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:36.775574 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:36.776574 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:36.776574 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:53:38.847693 tid13064 [IFO,App] Setting value 39 at row 1
+2017-06-08T16:53:38.847693 tid13064 [IFO,App] RCM/Frequency x:39
+2017-06-08T16:53:38.847693 tid13064 [dbg,Core:dev:RCM] Will set property "Frequency x" to "39.0000"
+2017-06-08T16:53:38.847693 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:38.847693 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:38.847693 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:38.848693 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:38.849693 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:38.849693 tid13064 [dbg,Core:dev:RCM] Did set property "Frequency x" to "39.0000"
+2017-06-08T16:53:38.849693 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:53:38.849693 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:53:38.849693 tid13064 [dbg,Core] Will update system state cache
+2017-06-08T16:53:38.849693 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:38.849693 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:38.849693 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:38.850693 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:38.851693 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:38.851693 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:38.851693 tid13064 [IFO,Core] Did update system state cache
+2017-06-08T16:53:38.852693 tid13064 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-06-08T16:53:38.853693 tid13064 [IFO,App] Rebuilding config group table
+2017-06-08T16:53:38.853693 tid13064 [IFO,App] Finished rebuilding config group table
+2017-06-08T16:53:38.853693 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:38.853693 tid13064 [IFO,dev:RCM] Setting up task for the RCM-unit
+2017-06-08T16:53:38.853693 tid13064 [IFO,dev:RCM] Cancelling task for the RCM-unit
+2017-06-08T16:53:38.854693 tid13064 [IFO,dev:RCM] Starting sequence
+2017-06-08T16:53:38.854693 tid13064 [IFO,dev:RCM] Didn't write complete analog sequence to buffer: wrote 100 of 5000 values
+2017-06-08T16:53:38.855693 tid13064 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T16:53:38.856693 tid13064 [IFO,App] Finished updating GUI
+2017-06-08T16:55:49.150146 tid13064 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Waiting for device RCM...
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Finished waiting for device RCM
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Waiting for device DHub...
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Finished waiting for device DHub
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Waiting for device DCam...
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Finished waiting for device DCam
+2017-06-08T16:55:49.150146 tid13064 [dbg,Core] Will unload all devices
+2017-06-08T16:55:49.151146 tid13064 [IFO,Core] Did unload all devices
+2017-06-08T16:55:49.151146 tid13064 [IFO,Core] System reset
+2017-06-08T16:55:49.152146 tid13064 [IFO,Core] Core session ended

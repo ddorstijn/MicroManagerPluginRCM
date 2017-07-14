@@ -1,0 +1,1551 @@
+2017-07-06T10:21:54.476951 tid7924 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170706T102154_pid1160.txt
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] User: Nikon-SIM
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] Host: Nikon-SIM-HP
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] MMCore version 8.5.0
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] Device API version 67, Module API version 10
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.6.0_31, 32-bit
+2017-07-06T10:21:54.476951 tid7924 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                   [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-06T10:21:54.566951 tid7040 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-07-06T10:21:54.697951 tid7040 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@1b09282
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@9abce9
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@56fc16
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@161f39e
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@18eb7b8
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@1c85444
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@8a1977
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin GaussianTrack_@8de972
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@c5e2cf
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@1f8d077
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@3e5a91
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@1ac1e22
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@18ed77a
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@15fc672
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@1991de1
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@11abd68
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@8932e8
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@16d3536
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@c08593
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@42a818
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@29d65b
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@b8176d
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@a1d7b
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.splitview.SplitView@158291
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin PMQI.AutoWB@2f1e75
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@178b64b
+2017-07-06T10:21:54.698951 tid7040 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-07-06T10:21:54.718951 tid7040 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@bfd10a
+2017-07-06T10:21:54.718951 tid7040 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@df4bfc
+2017-07-06T10:21:54.728951 tid7040 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@1d4d493
+2017-07-06T10:21:54.728951 tid7040 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@1f2af1c
+2017-07-06T10:21:54.728951 tid7040 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@9c8c3f
+2017-07-06T10:21:54.728951 tid7040 [IFO,App] Searching for plugins in class loader
+2017-07-06T10:21:54.841952 tid7040 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@19ce47a
+2017-07-06T10:21:54.841952 tid7040 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@15c2843
+2017-07-06T10:21:54.841952 tid7040 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@1cc5461
+2017-07-06T10:21:54.841952 tid7040 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@acbd3a
+2017-07-06T10:21:54.841952 tid7040 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@bb6086
+2017-07-06T10:21:54.841952 tid7040 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@1be1041
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@1fc25e5
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@1e88b35
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@d2b918
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@7787a5
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@1b493c6
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@1b22d99
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@cfad31
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@1ab5dae
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@19480b8
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@8ef177
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@9d5793
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@1e090ee
+2017-07-06T10:21:54.851952 tid7040 [IFO,App] Plugin loading took 285ms
+2017-07-06T10:21:54.851952 tid7924 [IFO,App] Finished waiting for plugins to load
+2017-07-06T10:22:01.067966 tid7924 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-06T10:22:01.067966 tid7924 [dbg,Core] Will unload all devices
+2017-07-06T10:22:01.067966 tid7924 [IFO,Core] Did unload all devices
+2017-07-06T10:22:01.067966 tid7924 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-06T10:22:01.067966 tid7924 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-06T10:22:01.067966 tid7924 [dbg,Core] Will load device RCM from RCM
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Will initialize 3 devices
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Will initialize device RCM
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did initialize device RCM
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Will initialize device DHub
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did initialize device DHub
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Will initialize device DCam
+2017-07-06T10:22:01.167966 tid7924 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-07-06T10:22:01.167966 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did initialize device DCam
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Default camera set to DCam
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Finished initializing 3 devices
+2017-07-06T10:22:01.167966 tid7924 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Will set Core property: Camera = DCam
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Default camera set to DCam
+2017-07-06T10:22:01.167966 tid7924 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Did set Core property: Camera = DCam
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Autoshutter turned on
+2017-07-06T10:22:01.167966 tid7924 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Waiting for device DHub...
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Finished waiting for device DHub
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Waiting for device DCam...
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Finished waiting for device DCam
+2017-07-06T10:22:01.167966 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:01.167966 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:01.167966 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:01.177966 tid7924 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-06T10:22:01.177966 tid7924 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-06T10:22:01.861968 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:01.861968 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:01.871968 tid7924 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-07-06T10:22:01.871968 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-06T10:22:01.871968 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:01.871968 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:01.871968 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:01.871968 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:01.871968 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:01.871968 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:01.871968 tid7924 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.
+2017-07-06T10:22:08.918982 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$1.windowOpened(PropertyEditor.java:141)
+                                   [       ]   at java.awt.Window.processWindowEvent(Unknown Source)
+                                   [       ]   at javax.swing.JFrame.processWindowEvent(Unknown Source)
+                                   [       ]   at java.awt.Window.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:08.918982 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:18.045003 tid7924 [IFO,App] Setting value Off at row 13
+2017-07-06T10:22:18.045003 tid7924 [IFO,App] RCM/Start Sequence:Off
+2017-07-06T10:22:18.045003 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.displayStringToInt(NumberUtils.java:66)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.intStringDisplayToCore(NumberUtils.java:116)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.setValueInCore(PropertyTableData.java:152)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:239)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:20.448008 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:20.448008 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:20.448008 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:20.448008 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:20.448008 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:20.448008 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:20.448008 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:20.458008 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:20.458008 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:20.458008 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] Setting value 0 at row 11
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] RCM/Phase rotation X:0
+2017-07-06T10:22:21.622010 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation X" to "0"
+2017-07-06T10:22:21.622010 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation X" to "0"
+2017-07-06T10:22:21.622010 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:21.622010 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:21.622010 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:21.622010 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:21.622010 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:21.622010 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:21.632010 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:21.632010 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:22.585011 tid7924 [IFO,App] [UI]  "ComboBox.list" set to "Off" in PropertyEditor.
+2017-07-06T10:22:22.585011 tid7924 [IFO,App] Setting value Off at row 13
+2017-07-06T10:22:22.585011 tid7924 [IFO,App] RCM/Start Sequence:Off
+2017-07-06T10:22:22.585011 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.displayStringToInt(NumberUtils.java:66)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.intStringDisplayToCore(NumberUtils.java:116)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.setValueInCore(PropertyTableData.java:152)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:239)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:23.744013 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:23.744013 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:23.744013 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:23.744013 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:23.744013 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:23.754013 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:23.754013 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:23.754013 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:23.754013 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:23.754013 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:26.281020 tid7924 [IFO,App] [UI]  "ComboBox.list" set to "On" in PropertyEditor.
+2017-07-06T10:22:26.281020 tid7924 [IFO,App] Setting value On at row 13
+2017-07-06T10:22:26.281020 tid7924 [IFO,App] RCM/Start Sequence:On
+2017-07-06T10:22:26.281020 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "On" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.displayStringToInt(NumberUtils.java:66)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.intStringDisplayToCore(NumberUtils.java:116)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.setValueInCore(PropertyTableData.java:152)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:239)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:27.744022 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:27.744022 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:27.744022 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:27.744022 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:27.744022 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:27.744022 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:27.744022 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:27.754022 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:27.754022 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:27.754022 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:36.614040 tid7924 [IFO,App] [UI] JTextField clicked in PropertyEditor.
+2017-07-06T10:22:38.113046 tid7924 [IFO,App] [UI] JTextField clicked in PropertyEditor.
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] Setting value 0 at row 11
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] RCM/Phase rotation X:0
+2017-07-06T10:22:38.846047 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation X" to "0"
+2017-07-06T10:22:38.846047 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation X" to "0"
+2017-07-06T10:22:38.846047 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:38.846047 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:38.846047 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:38.846047 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:38.846047 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:38.846047 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:38.856048 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:38.856048 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:39.809049 tid7924 [IFO,App] [UI] JComboBox clicked in PropertyEditor.
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] [UI]  "ComboBox.list" set to "180" in PropertyEditor.
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] Setting value 180 at row 12
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] RCM/Phase rotation Y:180
+2017-07-06T10:22:40.680050 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation Y" to "180"
+2017-07-06T10:22:40.680050 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation Y" to "180"
+2017-07-06T10:22:40.680050 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:40.680050 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:40.680050 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:40.680050 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:40.680050 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:40.680050 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:40.680050 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] Setting value 0 at row 11
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] RCM/Phase rotation X:0
+2017-07-06T10:22:42.366053 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation X" to "0"
+2017-07-06T10:22:42.366053 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation X" to "0"
+2017-07-06T10:22:42.366053 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:42.366053 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:42.366053 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:42.366053 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:42.366053 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:42.366053 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:42.376053 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:42.376053 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] [UI]  "ComboBox.list" set to "0" in PropertyEditor.
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] Setting value 0 at row 12
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] RCM/Phase rotation Y:0
+2017-07-06T10:22:42.919054 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation Y" to "0"
+2017-07-06T10:22:42.919054 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation Y" to "0"
+2017-07-06T10:22:42.919054 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:42.919054 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:42.919054 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:42.919054 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:42.919054 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:42.919054 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:42.919054 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:43.803055 tid7924 [IFO,App] Setting value 0 at row 11
+2017-07-06T10:22:43.803055 tid7924 [IFO,App] RCM/Phase rotation X:0
+2017-07-06T10:22:43.803055 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation X" to "0"
+2017-07-06T10:22:43.803055 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation X" to "0"
+2017-07-06T10:22:43.803055 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:43.803055 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:43.803055 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:43.803055 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:43.803055 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:43.803055 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:43.813055 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:43.813055 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:43.813055 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:43.813055 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:43.813055 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:43.813055 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] [UI]  "ComboBox.list" set to "0" in PropertyEditor.
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] Setting value 0 at row 12
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] RCM/Phase rotation Y:0
+2017-07-06T10:22:44.533056 tid7924 [dbg,Core:dev:RCM] Will set property "Phase rotation Y" to "0"
+2017-07-06T10:22:44.533056 tid7924 [dbg,Core:dev:RCM] Did set property "Phase rotation Y" to "0"
+2017-07-06T10:22:44.533056 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:44.533056 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:44.533056 tid7924 [dbg,Core] Will update system state cache
+2017-07-06T10:22:44.533056 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:44.533056 tid7924 [IFO,Core] Did update system state cache
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:242)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] Updating GUI; config pad = true; from cache = true
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] Rebuilding config group table
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] Finished rebuilding config group table
+2017-07-06T10:22:44.533056 tid7924 [IFO,App] 
+                                   [       ] java.text.ParseException: Unparseable number: "Off" in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at java.text.NumberFormat.parse(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.NumberUtils.coreStringToInt(NumberUtils.java:93)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:19)
+                                   [       ]   at org.micromanager.internal.utils.SortFunctionObjects$IntStringComp.compare(SortFunctionObjects.java:12)
+                                   [       ]   at java.util.Arrays.mergeSort(Unknown Source)
+                                   [       ]   at java.util.Arrays.sort(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.sort(PropertyItem.java:119)
+                                   [       ]   at org.micromanager.internal.utils.PropertyItem.readFromCore(PropertyItem.java:100)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.update(PropertyEditor.java:272)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.update(PropertyTableData.java:222)
+                                   [       ]   at org.micromanager.internal.utils.PropertyTableData.refresh(PropertyTableData.java:214)
+                                   [       ]   at org.micromanager.internal.PropertyEditor.refresh(PropertyEditor.java:196)
+                                   [       ]   at org.micromanager.internal.MMStudio.updateGUI(MMStudio.java:1021)
+                                   [       ]   at org.micromanager.internal.MMStudio.refreshGUIFromCache(MMStudio.java:1456)
+                                   [       ]   at org.micromanager.internal.PropertyEditor$PropertyEditorTableData.setValueAt(PropertyEditor.java:243)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor.access$400(PropertyValueCellEditor.java:23)
+                                   [       ]   at org.micromanager.internal.utils.PropertyValueCellEditor$6.actionPerformed(PropertyValueCellEditor.java:128)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$2.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-06T10:22:44.533056 tid7924 [dbg,dev:DCam] Reading property ScanMode
+2017-07-06T10:22:44.543056 tid7924 [IFO,App] Finished updating GUI
+2017-07-06T10:22:54.778075 tid7924 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Waiting for device RCM...
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Finished waiting for device RCM
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Waiting for device DHub...
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Finished waiting for device DHub
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Waiting for device DCam...
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Finished waiting for device DCam
+2017-07-06T10:22:54.778075 tid7924 [dbg,Core] Will unload all devices
+2017-07-06T10:22:54.778075 tid7924 [IFO,Core] Did unload all devices
+2017-07-06T10:22:54.778075 tid7924 [IFO,Core] System reset
+2017-07-06T10:22:54.778075 tid7924 [IFO,Core] Core session ended

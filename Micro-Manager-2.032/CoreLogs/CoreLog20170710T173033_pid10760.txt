@@ -1,0 +1,466 @@
+2017-07-10T17:30:33.373657 tid10992 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-2.032\CoreLogs\CoreLog20170710T173033_pid10760.txt
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] User: Nikon-SIM
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] Host: Nikon-SIM-HP
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] MM Studio version: 2.0.0-beta3 20170607
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] MMCore version 8.5.0
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] Device API version 67, Module API version 10
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] Operating System: Windows 7 (x86) 6.1
+2017-07-10T17:30:33.373657 tid10992 [IFO,App] JVM: Java HotSpot(TM) Client VM, version 1.8.0_131, 32-bit
+2017-07-10T17:30:33.376657 tid10992 [IFO,App] EDTHangLogger: Started monitoring of EDT hangs
+                                    [       ] [heartbeat timeout = 4500 ms, hang check interval = 1000 ms]
+2017-07-10T17:30:33.480663 tid12084 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmplugins
+2017-07-10T17:30:33.581669 tid12084 [IFO,App] Found plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions@78cb8d
+2017-07-10T17:30:33.584669 tid12084 [IFO,App] Found plugin org.micromanager.asidispim.ASIdiSPIM@cf08c4
+2017-07-10T17:30:33.584669 tid12084 [IFO,App] Found plugin ch.epfl.leb.autolase.AutoLasePlugin@dd4f14
+2017-07-10T17:30:33.584669 tid12084 [IFO,App] Found plugin org.micromanager.CRISP.CRISP@16ee6b6
+2017-07-10T17:30:33.585669 tid12084 [IFO,App] Found plugin com.asiimaging.CRISPv2.ASI_CRISP_V2@8b71fe
+2017-07-10T17:30:33.585669 tid12084 [IFO,App] Found plugin org.micromanager.duplicator.DuplicatorPlugin@e6d0f
+2017-07-10T17:30:33.586669 tid12084 [IFO,App] Found plugin org.micromanager.plugins.framecombiner.FrameCombinerPlugin@33a569
+2017-07-10T17:30:33.586669 tid12084 [IFO,App] Found plugin GaussianTrack_@17f35f9
+2017-07-10T17:30:33.587670 tid12084 [IFO,App] Found plugin org.micromanager.hcs.HCSPlugin@c7e359
+2017-07-10T17:30:33.587670 tid12084 [IFO,App] Found plugin org.micromanager.imageflipper.FlipperPlugin@1ae9cea
+2017-07-10T17:30:33.587670 tid12084 [IFO,App] Found plugin org.micromanager.intelligentacquisition.IntelligentAcquisition@10d0743
+2017-07-10T17:30:33.588670 tid12084 [IFO,App] Found plugin com.imaging100x.tracker.TrackerPlugin@85e490
+2017-07-10T17:30:33.588670 tid12084 [IFO,App] Found plugin org.micromanager.multicamera.MultiCamera@bf65f8
+2017-07-10T17:30:33.588670 tid12084 [IFO,App] Found plugin org.micromanager.multichannelshading.MultiChannelShading@183e389
+2017-07-10T17:30:33.588670 tid12084 [IFO,App] Found plugin org.micromanager.patternoverlay.PatternOverlayPlugin@762c62
+2017-07-10T17:30:33.589670 tid12084 [IFO,App] Found plugin edu.umassmed.pgfocus.pgFocus@10bfcf8
+2017-07-10T17:30:33.589670 tid12084 [IFO,App] Found plugin org.micromanager.pipelinesaver.SaverPlugin@33c407
+2017-07-10T17:30:33.590670 tid12084 [IFO,App] Found plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin@d06cb4
+2017-07-10T17:30:33.590670 tid12084 [IFO,App] Found plugin org.micromanager.projector.ProjectorPlugin@1cc4db0
+2017-07-10T17:30:33.590670 tid12084 [IFO,App] Found plugin org.micromanager.recall.RecallPlugin@6d180b
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Found plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor@10f7d3b
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Found plugin org.micromanager.slideexplorer.SlideExplorerPlugin@5035b6
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Found plugin org.micromanager.plugins.snaponmove.SnapOnMovePlugin@7f899c
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Found plugin org.micromanager.splitview.SplitView@f07fd8
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Found plugin PMQI.AutoWB@e42318
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Found plugin org.micromanager.zprojector.ZProjectorPlugin@1f65a37
+2017-07-10T17:30:33.591670 tid12084 [IFO,App] Searching for plugins in C:\Program Files\Micro-Manager-2.032/mmautofocus
+2017-07-10T17:30:33.609671 tid12084 [IFO,App] Found plugin org.micromanager.autofocus.HardwareFocusExtender@5f7559
+2017-07-10T17:30:33.615671 tid12084 [IFO,App] Found plugin org.micromanager.autofocus.Autofocus@11b94ff
+2017-07-10T17:30:33.616671 tid12084 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusDuo@1b3f032
+2017-07-10T17:30:33.617671 tid12084 [IFO,App] Found plugin org.micromanager.autofocus.AutofocusTB@131a483
+2017-07-10T17:30:33.619671 tid12084 [IFO,App] Found plugin org.micromanager.autofocus.OughtaFocus@15cc4d9
+2017-07-10T17:30:33.620671 tid12084 [IFO,App] Searching for plugins in class loader
+2017-07-10T17:30:33.729678 tid12084 [IFO,App] Found plugin main.java.org.micromanager.rcm.RCM@ec1296
+2017-07-10T17:30:33.729678 tid12084 [IFO,App] Found plugin org.micromanager.acquisition.internal.DefaultMDAPlugin@142648
+2017-07-10T17:30:33.729678 tid12084 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.ExportImagesItem@171156
+2017-07-10T17:30:33.729678 tid12084 [IFO,App] Found plugin org.micromanager.display.internal.gearmenu.LineProfileItem@67d1f3
+2017-07-10T17:30:33.730678 tid12084 [IFO,App] Found plugin org.micromanager.display.internal.inspector.OverlaysPlugin@146f58e
+2017-07-10T17:30:33.730678 tid12084 [IFO,App] Found plugin org.micromanager.display.internal.overlays.ScaleBarPlugin@e6c25b
+2017-07-10T17:30:33.730678 tid12084 [IFO,App] Found plugin org.micromanager.display.internal.overlays.TimestampPlugin@32a0b4
+2017-07-10T17:30:33.731678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.AutofocusButtons@17caa31
+2017-07-10T17:30:33.731678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.CloseAllButton@19fa8cf
+2017-07-10T17:30:33.731678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ExposureTime@19ace02
+2017-07-10T17:30:33.732678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.LiveButton@56b15a
+2017-07-10T17:30:33.732678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.MDAButtons@aa5926
+2017-07-10T17:30:33.733678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.PresetButton@1e4e382
+2017-07-10T17:30:33.733678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.RefreshButton@189e531
+2017-07-10T17:30:33.733678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SavedMDAButton@ce74bd
+2017-07-10T17:30:33.734678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ScriptButton@177e43c
+2017-07-10T17:30:33.734678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.ShutterControl@a51db3
+2017-07-10T17:30:33.734678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.SnapButton@133614a
+2017-07-10T17:30:33.734678 tid12084 [IFO,App] Found plugin org.micromanager.quickaccess.internal.controls.TextLabel@19fbc9a
+2017-07-10T17:30:33.735678 tid12084 [IFO,App] Plugin loading took 256ms
+2017-07-10T17:30:33.735678 tid10992 [IFO,App] Finished waiting for plugins to load
+2017-07-10T17:30:40.299053 tid10992 [dbg,Core] Will set Core property: Initialize = 0
+2017-07-10T17:30:40.299053 tid10992 [dbg,Core] Will unload all devices
+2017-07-10T17:30:40.299053 tid10992 [IFO,Core] Did unload all devices
+2017-07-10T17:30:40.299053 tid10992 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-07-10T17:30:40.300053 tid10992 [dbg,Core] Did set Core property: Initialize = 0
+2017-07-10T17:30:40.300053 tid10992 [dbg,Core] Will load device RCM from RCM
+2017-07-10T17:30:40.378058 tid10992 [IFO,Core] Did load device RCM from RCM; label = RCM
+2017-07-10T17:30:40.378058 tid10992 [dbg,Core] Will load device DHub from DemoCamera
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Will load device DCam from DemoCamera
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core:dev:RCM] Will set property "Ni DAQ card" to "Dev1"
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core:dev:RCM] Did set property "Ni DAQ card" to "Dev1"
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Will set Core property: Initialize = 1
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Will initialize 3 devices
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Will initialize device RCM
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Did initialize device RCM
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Will initialize device DHub
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Did initialize device DHub
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Will initialize device DCam
+2017-07-10T17:30:40.379058 tid10992 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-07-10T17:30:40.379058 tid10992 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Did initialize device DCam
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Default camera set to DCam
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Finished initializing 3 devices
+2017-07-10T17:30:40.379058 tid10992 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Did set Core property: Initialize = 1
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Will set Core property: Camera = DCam
+2017-07-10T17:30:40.379058 tid10992 [IFO,Core] Default camera set to DCam
+2017-07-10T17:30:40.379058 tid10992 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Did set Core property: Camera = DCam
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:40.379058 tid10992 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-07-10T17:30:40.379058 tid10992 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Waiting for device RCM...
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Finished waiting for device RCM
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Waiting for device DHub...
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Finished waiting for device DHub
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:40.380058 tid10992 [dbg,Core] Will update system state cache
+2017-07-10T17:30:40.380058 tid10992 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T17:30:40.380058 tid10992 [IFO,Core] Did update system state cache
+2017-07-10T17:30:40.384058 tid10992 [dbg,Core] Will set circular buffer size to 25 MB
+2017-07-10T17:30:40.391059 tid10992 [dbg,Core] Did set circular buffer size to 25 MB
+2017-07-10T17:30:41.055097 tid10992 [IFO,App] Rebuilding config group table
+2017-07-10T17:30:41.055097 tid10992 [IFO,App] Finished rebuilding config group table
+2017-07-10T17:30:41.063097 tid10992 [IFO,App] Startup script (C:\Program Files\Micro-Manager-2.032\MMStartup.bsh) not present
+2017-07-10T17:30:41.063097 tid10992 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-10T17:30:41.065097 tid10992 [IFO,App] Rebuilding config group table
+2017-07-10T17:30:41.065097 tid10992 [IFO,App] Finished rebuilding config group table
+2017-07-10T17:30:41.065097 tid10992 [dbg,Core] Will update system state cache
+2017-07-10T17:30:41.065097 tid10992 [dbg,dev:DCam] Reading property ScanMode
+2017-07-10T17:30:41.065097 tid10992 [IFO,Core] Did update system state cache
+2017-07-10T17:30:41.066097 tid10992 [IFO,App] Finished updating GUI
+2017-07-10T17:30:41.068097 tid10992 [IFO,App] [UI] JButton "OK" clicked in IntroDlg.
+2017-07-10T17:30:48.524524 tid10992 [IFO,App] [UI] JButton "Multi-D Acq." clicked in MainFrame.
+2017-07-10T17:30:51.941719 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getExposure)
+2017-07-10T17:30:51.944719 tid10992 [dbg,App] [AE] --> 10.0
+2017-07-10T17:30:51.951720 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:51.953720 tid10992 [dbg,App] [AE] --> 1
+2017-07-10T17:30:51.959720 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:51.960720 tid10992 [dbg,App] [AE] --> 1
+2017-07-10T17:30:51.964721 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:51.964721 tid10992 [dbg,App] [AE] --> 1
+2017-07-10T17:30:51.967721 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:30:51.968721 tid10992 [dbg,App] [AE] -->
+2017-07-10T17:30:51.972721 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfComponents)
+2017-07-10T17:30:51.973721 tid10992 [dbg,App] [AE] --> 1
+2017-07-10T17:30:51.975721 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:51.975721 tid10992 [dbg,App] [AE] --> 1
+2017-07-10T17:30:51.978721 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:51.978721 tid10992 [dbg,App] [AE] --> 1
+2017-07-10T17:30:51.981722 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageWidth)
+2017-07-10T17:30:51.981722 tid10992 [dbg,App] [AE] --> 512
+2017-07-10T17:30:51.983722 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageHeight)
+2017-07-10T17:30:51.984722 tid10992 [dbg,App] [AE] --> 512
+2017-07-10T17:30:51.996722 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getROI [0] [0] [0] [0])
+2017-07-10T17:30:51.996722 tid10992 [dbg,App] [AE] --> nil
+2017-07-10T17:30:51.999723 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getPixelSizeUm)
+2017-07-10T17:30:51.999723 tid10992 [dbg,App] [AE] --> 0.0
+2017-07-10T17:30:52.003723 tid10992 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageBitDepth)
+2017-07-10T17:30:52.004723 tid10992 [dbg,App] [AE] --> 8
+2017-07-10T17:30:52.089728 tid9404 [dbg,App] [AE] Starting MD Acquisition:
+                                   [       ] {:autofocus-skip 0,
+                                   [       ]  :camera-timeout 20000,
+                                   [       ]  :channel-group "",
+                                   [       ]  :channels [],
+                                   [       ]  :comment "",
+                                   [       ]  :custom-intervals-ms [],
+                                   [       ]  :default-exposure 10.0,
+                                   [       ]  :frames (0 1),
+                                   [       ]  :interval-ms 100.0,
+                                   [       ]  :keep-shutter-open-channels false,
+                                   [       ]  :keep-shutter-open-slices true,
+                                   [       ]  :numFrames 2,
+                                   [       ]  :positions [],
+                                   [       ]  :prefix nil,
+                                   [       ]  :relative-slices true,
+                                   [       ]  :root nil,
+                                   [       ]  :save false,
+                                   [       ]  :shouldDisplayImages true,
+                                   [       ]  :slices [],
+                                   [       ]  :slices-first false,
+                                   [       ]  :time-first false,
+                                   [       ]  :use-autofocus false,
+                                   [       ]  :use-position-list false,
+                                   [       ]  :useCustomIntervals false,
+                                   [       ]  :zReference 0.0}
+2017-07-10T17:30:52.091728 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getFocusDevice)
+2017-07-10T17:30:52.091728 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.093728 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getXYStageDevice)
+2017-07-10T17:30:52.093728 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.095728 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getExposure)
+2017-07-10T17:30:52.095728 tid9404 [dbg,App] [AE] --> 10.0
+2017-07-10T17:30:52.097728 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:52.097728 tid9404 [dbg,App] [AE] --> true
+2017-07-10T17:30:52.099728 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterOpen)
+2017-07-10T17:30:52.099728 tid9404 [dbg,App] [AE] --> true
+2017-07-10T17:30:52.101728 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.101728 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.103729 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:52.104729 tid9404 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@193e750>
+2017-07-10T17:30:52.109729 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc isContinuousFocusEnabled)
+2017-07-10T17:30:52.110729 tid9404 [dbg,App] [AE] --> false
+2017-07-10T17:30:52.112729 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageWidth)
+2017-07-10T17:30:52.112729 tid9404 [dbg,App] [AE] --> 512
+2017-07-10T17:30:52.114729 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageHeight)
+2017-07-10T17:30:52.114729 tid9404 [dbg,App] [AE] --> 512
+2017-07-10T17:30:52.116729 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.116729 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.122730 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getProperty "DCam" "Binning")
+2017-07-10T17:30:52.124730 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.124730 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.124730 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.125730 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getImageBitDepth)
+2017-07-10T17:30:52.126730 tid9404 [dbg,App] [AE] --> 8
+2017-07-10T17:30:52.127730 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getPixelSizeUm)
+2017-07-10T17:30:52.128730 tid9404 [dbg,App] [AE] --> 0.0
+2017-07-10T17:30:52.129730 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfComponents)
+2017-07-10T17:30:52.130730 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.131730 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getBytesPerPixel)
+2017-07-10T17:30:52.132730 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.147731 tid10992 [IFO,App] [UI] JButton "Acquire!" clicked in AcqControlDlg.
+2017-07-10T17:30:52.169732 tid9404 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                   [       ] {:close-shutter true,
+                                   [       ]  :next-frame-index 1,
+                                   [       ]  :frame-index 0,
+                                   [       ]  :position-index 0,
+                                   [       ]  :new-position true,
+                                   [       ]  :autofocus false,
+                                   [       ]  :channel-index 0,
+                                   [       ]  :slice-index 0,
+                                   [       ]  :frame 0,
+                                   [       ]  :exposure 10.0,
+                                   [       ]  :relative-z true,
+                                   [       ]  :task :snap,
+                                   [       ]  :wait-time-ms 0}
+2017-07-10T17:30:52.169732 tid9404 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:30:52.171732 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.171732 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.173733 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:52.174733 tid9404 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:52.174733 tid9404 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:52.174733 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.176733 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setExposure 10.0)
+2017-07-10T17:30:52.176733 tid9404 [dbg,Core] Will set camera DCam exposure to 10.000 ms
+2017-07-10T17:30:52.177733 tid9404 [dbg,Core] Did set camera DCam exposure to 10.000 ms
+2017-07-10T17:30:52.177733 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.177733 tid9404 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:30:52.177733 tid9404 [dbg,App] [AE] acq-sleep
+2017-07-10T17:30:52.177733 tid9404 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:30:52.178733 tid9404 [dbg,App] [AE] END set z position
+2017-07-10T17:30:52.179733 tid9404 [dbg,App] [AE] pending devices:  #{"DCam"}
+2017-07-10T17:30:52.181733 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:52.181733 tid9404 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:52.181733 tid9404 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:52.182733 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.182733 tid9404 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:30:52.183733 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:52.183733 tid9404 [dbg,App] [AE] --> true
+2017-07-10T17:30:52.185733 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:52.186733 tid9404 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@199d418>
+2017-07-10T17:30:52.190734 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:52.190734 tid9404 [dbg,App] [AE] --> true
+2017-07-10T17:30:52.193734 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:30:52.193734 tid9404 [dbg,Core] Autoshutter turned off
+2017-07-10T17:30:52.193734 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.195734 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.195734 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.195734 tid9404 [dbg,App] [AE] pending devices:  #{}
+2017-07-10T17:30:52.197734 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.197734 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.200734 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:30:52.203734 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.206734 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.206734 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.207735 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:52.208735 tid9404 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:52.208735 tid9404 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:52.208735 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.209735 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.209735 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.211735 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:30:52.211735 tid9404 [dbg,Core] Will snap image from current camera
+2017-07-10T17:30:52.221735 tid9404 [dbg,Core] Did snap image from current camera
+2017-07-10T17:30:52.221735 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.222735 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.223735 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.224736 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen false)
+2017-07-10T17:30:52.224736 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.227736 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:30:52.227736 tid9404 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:52.227736 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.227736 tid9404 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:30:52.229736 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:52.229736 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.231736 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:52.231736 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.233736 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:30:52.233736 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.236736 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:30:52.238736 tid9404 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@14cf60>
+2017-07-10T17:30:52.247737 tid9404 [dbg,App] [AE] END acquire
+2017-07-10T17:30:52.247737 tid9404 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:30:52.259738 tid9404 [dbg,App] [AE] ##### BEGIN acquisition event:
+                                   [       ] {:close-shutter true,
+                                   [       ]  :next-frame-index nil,
+                                   [       ]  :frame-index 1,
+                                   [       ]  :position-index 0,
+                                   [       ]  :new-position false,
+                                   [       ]  :autofocus false,
+                                   [       ]  :channel-index 0,
+                                   [       ]  :slice-index 0,
+                                   [       ]  :frame 1,
+                                   [       ]  :exposure 10.0,
+                                   [       ]  :relative-z true,
+                                   [       ]  :task :snap,
+                                   [       ]  :wait-time-ms 100.0}
+2017-07-10T17:30:52.259738 tid9404 [dbg,App] [AE] BEGIN channel properties and exposure
+2017-07-10T17:30:52.260738 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.260738 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.260738 tid9404 [dbg,App] [AE] END channel properties and exposure
+2017-07-10T17:30:52.260738 tid9404 [dbg,App] [AE] acq-sleep
+2017-07-10T17:30:52.279739 tid9404 [dbg,App] [AE] BEGIN set z position
+2017-07-10T17:30:52.279739 tid9404 [dbg,App] [AE] END set z position
+2017-07-10T17:30:52.281739 tid9404 [dbg,App] [AE] pending devices:  #{"" "DCam"}
+2017-07-10T17:30:52.282739 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:52.282739 tid9404 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:52.282739 tid9404 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:52.283739 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.283739 tid9404 [dbg,App] [AE] BEGIN acquire
+2017-07-10T17:30:52.284739 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:52.285739 tid9404 [dbg,App] [AE] --> true
+2017-07-10T17:30:52.289739 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:52.290739 tid9404 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@43444f>
+2017-07-10T17:30:52.293739 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getAutoShutter)
+2017-07-10T17:30:52.293739 tid9404 [dbg,App] [AE] --> true
+2017-07-10T17:30:52.295740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter false)
+2017-07-10T17:30:52.295740 tid9404 [dbg,Core] Autoshutter turned off
+2017-07-10T17:30:52.295740 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.297740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.297740 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.298740 tid9404 [dbg,App] [AE] pending devices:  #{""}
+2017-07-10T17:30:52.300740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.300740 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.302740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:30:52.302740 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.304740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.304740 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.305740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:52.305740 tid9404 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:52.305740 tid9404 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:52.306740 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.307740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.307740 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.308740 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc snapImage)
+2017-07-10T17:30:52.309740 tid9404 [dbg,Core] Will snap image from current camera
+2017-07-10T17:30:52.319741 tid9404 [dbg,Core] Did snap image from current camera
+2017-07-10T17:30:52.319741 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.320741 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.320741 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.322741 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen false)
+2017-07-10T17:30:52.322741 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.327741 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:30:52.327741 tid9404 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:52.327741 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.327741 tid9404 [dbg,App] [AE] collecting image(s)
+2017-07-10T17:30:52.329742 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:52.329742 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.330742 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getNumberOfCameraChannels)
+2017-07-10T17:30:52.331742 tid9404 [dbg,App] [AE] --> 1
+2017-07-10T17:30:52.332742 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraChannelName 0)
+2017-07-10T17:30:52.332742 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.334742 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getTaggedImage 0)
+2017-07-10T17:30:52.335742 tid9404 [dbg,App] [AE] --> #<TaggedImage mmcorej.TaggedImage@14b4299>
+2017-07-10T17:30:52.338742 tid9404 [dbg,App] [AE] END acquire
+2017-07-10T17:30:52.338742 tid9404 [dbg,App] [AE] ##### END acquisition event
+2017-07-10T17:30:52.339742 tid9404 [dbg,App] [AE] cleanup
+2017-07-10T17:30:52.341742 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc isSequenceRunning)
+2017-07-10T17:30:52.342742 tid9404 [dbg,App] [AE] --> false
+2017-07-10T17:30:52.345742 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getSystemStateCache)
+2017-07-10T17:30:52.345742 tid9404 [dbg,App] [AE] --> #<Configuration mmcorej.Configuration@1da5ef8>
+2017-07-10T17:30:52.356743 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc waitForDevice "DCam")
+2017-07-10T17:30:52.357743 tid9404 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:30:52.357743 tid9404 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:30:52.357743 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.360743 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setProperty "DCam" "Exposure" "10.0000")
+2017-07-10T17:30:52.361743 tid9404 [dbg,Core:dev:DCam] Will set property "Exposure" to "10.0000"
+2017-07-10T17:30:52.361743 tid9404 [dbg,Core:dev:DCam] Did set property "Exposure" to "10.0000"
+2017-07-10T17:30:52.361743 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.363743 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setAutoShutter true)
+2017-07-10T17:30:52.363743 tid9404 [dbg,Core] Autoshutter turned on
+2017-07-10T17:30:52.363743 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.365744 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getCameraDevice)
+2017-07-10T17:30:52.365744 tid9404 [dbg,App] [AE] --> DCam
+2017-07-10T17:30:52.367744 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc getShutterDevice)
+2017-07-10T17:30:52.368744 tid9404 [dbg,App] [AE] -->
+2017-07-10T17:30:52.369744 tid9404 [dbg,App] [AE] <-- (. org.micromanager.mm/mmc setShutterOpen true)
+2017-07-10T17:30:52.369744 tid9404 [dbg,App] [AE] --> nil
+2017-07-10T17:30:52.370744 tid9404 [dbg,App] [AE] acquisition thread exiting
+2017-07-10T17:30:52.463749 tid11500 [IFO,App] 2 images stored in 316 ms.
+2017-07-10T17:31:18.117216 tid10992 [dbg,App] [AE] stop requested!
+2017-07-10T17:31:18.219222 tid10992 [dbg,App] [AE] state:
+                                    [       ] {:finished true,
+                                    [       ]  :last-image-time 223,
+                                    [       ]  :display nil,
+                                    [       ]  :position-list nil,
+                                    [       ]  :init-system-state
+                                    [       ]  {["RCM" "Laser off (not yet implemented"] "0.0000",
+                                    [       ]   ["DCam" "TestProperty1"] "0.0000",
+                                    [       ]   ["RCM" "Amplitude x"] "2.0000",
+                                    [       ]   ["Core" "AutoShutter"] "1",
+                                    [       ]   ["RCM" "Phase rotation X"] "0",
+                                    [       ]   ["DCam" "TestProperty2"] "0.0000",
+                                    [       ]   ["DCam" "Name"] "DCam",
+                                    [       ]   ["RCM" "Amplitude y"] "0.5000",
+                                    [       ]   ["RCM" "Phase rotation Y"] "1",
+                                    [       ]   ["DCam" "TestProperty3"] "0.0000",
+                                    [       ]   ["DCam" "TestProperty4"] "0.0000",
+                                    [       ]   ["DCam" "CCDTemperature RO"] "0.0000",
+                                    [       ]   ["DCam" "MaximumExposureMs"] "10000.0000",
+                                    [       ]   ["DCam" "TestProperty5"] "0.0000",
+                                    [       ]   ["RCM" "Start Sequence"] "0",
+                                    [       ]   ["DCam" "TriggerDevice"] "",
+                                    [       ]   ["RCM" "Sweep ratio x (M=1)"] "0.7500",
+                                    [       ]   ["DCam" "TestProperty6"] "0.0000",
+                                    [       ]   ["RCM" "Sweep ratio y (M=1)"] "0.7500",
+                                    [       ]   ["DCam" "HubID"] "",
+                                    [       ]   ["DCam" "CCDTemperature"] "0.0000",
+                                    [       ]   ["DCam" "CameraName"] "DemoCamera-MultiMode",
+                                    [       ]   ["RCM" "Ni DAQ card"] "Dev1",
+                                    [       ]   ["RCM" "Offset Re-scan x"] "0.0000",
+                                    [       ]   ["RCM" "Offset Scan x"] "0.0000",
+                                    [       ]   ["Core" "Camera"] "DCam",
+                                    [       ]   ["RCM" "Offset Re-scan y"] "0.0000",
+                                    [       ]   ["RCM" "Sweep factor"] "2",
+                                    [       ]   ["RCM" "Offset Scan y"] "0.0000",
+                                    [       ]   ["DCam" "RotateImages"] "0",
+                                    [       ]   ...},
+                                    [       ]  :init-z-position 0,
+                                    [       ]  :last-wake-time 2.9225198E7,
+                                    [       ]  :reference-z 0,
+                                    [       ]  :init-continuous-focus false,
+                                    [       ]  :init-shutter-state true,
+                                    [       ]  :shutter-states {"" true},
+                                    [       ]  :acq-thread #<Thread Thread[AcquisitionEngine2010 Thread (Clojure),6,]>,
+                                    [       ]  :default-xy-stage "",
+                                    [       ]  :start-time 29225016,
+                                    [       ]  :init-auto-shutter true,
+                                    [       ]  :default-z-drive "",
+                                    [       ]  :bit-depth 8,
+                                    [       ]  :cameras {"DCam" {:exposure 10.0}},
+                                    [       ]  :stop true,
+                                    [       ]  :live-mode-on false,
+                                    [       ]  :sleepy #<CountDownLatch java.util.concurrent.CountDownLatch@1ba6c31[Count = 0]>,
+                                    [       ]  :binning "1",
+                                    [       ]  :exposure {"DCam" 10.0},
+                                    [       ]  :pixel-size-um 0.0,
+                                    [       ]  :init-height 512,
+                                    [       ]  :summary-metadata
+                                    [       ]  #<JSONObject {"Slices":1,"SlicesFirst":false,"Interval_ms":100,"ProfileName":"Default user","Prefix":"","InitialPositionList":null,"z-step_um":0,"GridRow":0,"BitDepth":8,"Depth":1,"Channels":1,"Source":"Micro-Manager","ChColors":[-1],"MetadataVersion":"11.0.0","KeepShutterOpenChannels":false,"CustomIntervals_ms":[],"Height":512,"MicroManagerVersion":"2.0.0-beta3 20170607","GridColumn":0,"UUID":"bfe25bcd-d23c-416e-b7ef-7259aaa205ea","PixelType":"GRAY8","Width":512,"Directory":"","Frames":2,"Comment":"","UserName":"Nikon-SIM","PixelSize_um":0,"StartTime":"2017-07-10 17:30:51 +0200","AxisOrder":["channel","z","position","time"],"ROI":[0,0,512,512],"ChNames":["Default"],"KeepShutterOpenSlices":true,"IJType":0,"ComputerName":"Nikon-SIM-HP","Positions":1,"CameraTimeout":20000,"ChannelGroup":"","TimeFirst":false}>,
+                                    [       ]  :pixel-type "GRAY8",
+                                    [       ]  :pause false,
+                                    [       ]  :init-width 512,
+                                    [       ]  :next-wake-time 2.9225198E7,
+                                    [       ]  ...}
+2017-07-10T17:31:18.219222 tid10992 [IFO,App] EDTHangLogger: Stopping monitoring of EDT hangs
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Waiting for device RCM...
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Finished waiting for device RCM
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Waiting for device DHub...
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Finished waiting for device DHub
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Waiting for device DCam...
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Finished waiting for device DCam
+2017-07-10T17:31:18.219222 tid10992 [dbg,Core] Will unload all devices
+2017-07-10T17:31:18.219222 tid10992 [IFO,Core] Did unload all devices
+2017-07-10T17:31:18.219222 tid10992 [IFO,Core] System reset
+2017-07-10T17:31:18.221222 tid10992 [IFO,Core] Core session ended
