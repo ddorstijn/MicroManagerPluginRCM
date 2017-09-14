@@ -61,3 +61,18 @@ local.properties
 .classpath
 
 # End of https://www.gitignore.io/api/eclipse
+/RCMPlugin/RCMPlugin32 - Copy/build/
+/RCMPlugin/RCMPlugin32 - Copy/dist/
+/RCMPlugin/RCMPlugin32 - Copy/nbproject/private/
+/RCMPlugin/RCMPlugin64/build/
+/RCMPlugin/RCMPlugin64/dist/
+/RCMPlugin/RCMPlugin64/nbproject/private/
+/RCMPlugin/RCM2Plugin32/build/
+/RCMPlugin/RCM2Plugin32/nbproject/private/
+/RCMPlugin/RCM2Plugin64 - Copy/build/
+/RCMPlugin/RCM2Plugin64 - Copy/dist/
+/RCMPlugin/RCM2Plugin64 - Copy/nbproject/private/
+/RCMPlugin/RCM1.4Plugin64/build/
+/RCMPlugin/RCM1.4Plugin64/dist/
+/RCMPlugin/RCM1.4Plugin64/nbproject/private/
+/RCMPlugin/RCM2Plugin32/dist/
