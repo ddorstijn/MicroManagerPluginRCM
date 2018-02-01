@@ -76,3 +76,6 @@ local.properties
 /RCMPlugin/RCM1.4Plugin64/dist/
 /RCMPlugin/RCM1.4Plugin64/nbproject/private/
 /RCMPlugin/RCM2Plugin32/dist/
+/RCMPlugin/RCMPlugin/nbproject/private/
+/RCMPlugin/RCMPlugin/build/
+/RCMPlugin/RCMPlugin/dist/
